@@ -3,6 +3,7 @@ package com.scm.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -10,7 +11,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.scm.entities.User;
 import com.scm.forms.UserFrom;
+import com.scm.helper.Message;
+import com.scm.helper.MessageType;
 import com.scm.services.UserService;
+
+import jakarta.servlet.http.HttpSession;
+import jakarta.validation.Valid;
 
 @Controller
 public class PageController {
@@ -73,20 +79,38 @@ public class PageController {
     
     //processing register form
     @PostMapping("/do-register")
-    public String processRegister(@ModelAttribute UserFrom userForm) {
+    public String processRegister(@Valid @ModelAttribute("userForm") UserFrom userForm, BindingResult rBindingResult ,HttpSession session) {
          
+        System.out.println("UserForm: "+userForm);
+       // validation
+        if(rBindingResult.hasErrors()) {
+            return "register";
+        }
         // UserFrom--->User
-        User user = User.builder()
-                        .name(userForm.getName())
-                        .email(userForm.getEmail())
-                        .password(userForm.getPassword())
-                        .about(userForm.getAbout())
-                        .phoneNumber(userForm.getPhoneNumber())
-                        .profilePic("src\\main\\resources\\static\\images\\default_ProfilePic.png")
-                        .build();
-
+        // User user = User.builder()
+        //                 .name(userForm.getName())
+        //                 .email(userForm.getEmail())
+        //                 .password(userForm.getPassword())
+        //                 .about(userForm.getAbout())
+        //                 .phoneNumber(userForm.getPhoneNumber())
+        //                 .profilePic("src\\main\\resources\\static\\images\\default_ProfilePic.png")
+        //                 .build();
+       
+        User user = new User();
+        user.setName(userForm.getName());
+        user.setEmail(userForm.getEmail());
+        user.setPassword(userForm.getPassword());
+        user.setAbout(userForm.getAbout());
+        user.setPhoneNumber(userForm.getPhoneNumber());
+        user.setProfilePic("src\\main\\resources\\static\\images\\default_ProfilePic.png");
         User savedUser = userService.saveUser(user);
         
+        Message message= Message.builder()
+               .content("User registered successfully")
+               .type(MessageType.green)
+               .build();
+
+        session.setAttribute("message", message);
         return "redirect:/register";
     } 
 }
