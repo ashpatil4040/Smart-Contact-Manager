@@ -5,8 +5,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
+import org.springframework.security.config.Customizer;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.SecurityFilterChain;
 
 import com.scm.services.impl.SecurityCustomUserDetailService;
 
@@ -34,6 +37,8 @@ public class SecurityConfig {
     @Autowired
     private SecurityCustomUserDetailService userDetailService;
 
+
+    // configuration for authentication provider using dao authentication provider
     @Bean
     public DaoAuthenticationProvider authenticationProvider() {
         DaoAuthenticationProvider daoAuthenticationProvider = new DaoAuthenticationProvider();
@@ -45,6 +50,27 @@ public class SecurityConfig {
 
         return daoAuthenticationProvider;
     }
+
+    //security filter chain
+    @Bean
+    public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
+
+        // configure the http security
+        // url based authorization konse public hai ya private hai
+        httpSecurity.authorizeHttpRequests(authorize -> {
+        // authorize.requestMatchers("/home","register").permitAll();
+         authorize.requestMatchers("/user/**").authenticated();
+         authorize.anyRequest().permitAll();
+        } 
+        );
+        //form login
+        httpSecurity.formLogin(Customizer.withDefaults());
+        return httpSecurity.build();
+    }
+        
+
+
+
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder(); 
