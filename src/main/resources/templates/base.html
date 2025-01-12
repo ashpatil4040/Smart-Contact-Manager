@@ -11,7 +11,21 @@
 </head>
 <body class=" h-screen w-full dark:bg-gray-900 bg-gray-100 dark:text-white"> 
      <!--common header-->
-    <div data-th-replace="~{navbar :: navbar}" ></div>
+
+     <!-- is user is logged in: navbar -->
+    <div th:if="${LoggedInUser}">
+
+        <div data-th-replace="~{/user/user_navbar::user-navbar}" ></div>
+
+    </div>
+
+    
+    
+    <!-- if user is not logged in: navbar -->
+    <div th:unless="${LoggedInUser}">
+        <div data-th-replace="~{navbar :: navbar}" ></div>
+
+    </div>
    
      <!--main content-->
     <div class="p-4">

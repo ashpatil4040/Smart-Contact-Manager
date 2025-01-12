@@ -40,7 +40,6 @@ public class UserController {
     @GetMapping("/profile")
     public String userProfile(Model model,Authentication authentication) {
       
-        
         return "user/profile";
     }
 
