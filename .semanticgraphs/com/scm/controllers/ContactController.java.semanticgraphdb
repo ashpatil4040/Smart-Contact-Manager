@@ -1,0 +1,295 @@
+
+8src\main\java\com\scm\controllers\ContactController.javaõ
+%com.scm.controllers.ContactControllerCLASSB
+8src\main\java\com\scm\controllers\ContactController.java ("
+packagecom.scm.controllers"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"æ
+declarationStringÐ<mark class="annotation">@Controller</mark> <br><mark class="annotation">@RequestMapping("/user/contacts")</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>ContactController"
+accesspublic*ContactController2¥
+Rcom.scm.controllers.ContactController.addContactView(org.springframework.ui.Model)DECLARATIONB
+8src\main\java\com\scm\controllers\ContactController.java- -( 2¢
+Îcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)DECLARATIONB
+8src\main\java\com\scm\controllers\ContactController.java7 7(2‹
+8com.scm.controllers.ContactController?logger@33.11:33.17DECLARATIONB
+8src\main\java\com\scm\controllers\ContactController.java! !(2“
+@com.scm.controllers.ContactController?contactService@36.27:36.41DECLARATIONB
+8src\main\java\com\scm\controllers\ContactController.java$ $()2
+=com.scm.controllers.ContactController?userService@39.24:39.35DECLARATIONB
+8src\main\java\com\scm\controllers\ContactController.java' '(#2‘
+>com.scm.controllers.ContactController?imageService@42.25:42.37DECLARATIONB
+8src\main\java\com\scm\controllers\ContactController.java* *(%ê
+
+Rcom.scm.controllers.ContactController.addContactView(org.springframework.ui.Model)METHODB
+8src\main\java\com\scm\controllers\ContactController.java- -( "
+isFinalfalse"µ
+declarationStringŸ<mark class="annotation">@RequestMapping("/add")</mark> <br><mark class="modifier">public </mark>String <mark class="method">addContactView</mark>(Model model)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*addContactView2s
+'com.scm.forms.ContactForm.ContactForm()CALLB
+8src\main\java\com\scm\controllers\ContactController.java/$ /(/2¤
+Xcom.scm.controllers.ContactController.addContactView(org.springframework.ui.Model)!modelCALLB
+8src\main\java\com\scm\controllers\ContactController.java1 1(2¶
+jcom.scm.controllers.ContactController.addContactView(org.springframework.ui.Model)?contactForm@47.20:47.31CALLB
+8src\main\java\com\scm\controllers\ContactController.java1* 1(52©
+Xcom.scm.controllers.ContactController.addContactView(org.springframework.ui.Model)!model	PARAMETERB
+8src\main\java\com\scm\controllers\ContactController.java-' -(,2½
+jcom.scm.controllers.ContactController.addContactView(org.springframework.ui.Model)?contactForm@47.20:47.31DECLARATIONB
+8src\main\java\com\scm\controllers\ContactController.java/ /(2c
+java.lang.StringRETURN_TYPEB
+8src\main\java\com\scm\controllers\ContactController.java- -(Í
+jcom.scm.controllers.ContactController.addContactView(org.springframework.ui.Model)?contactForm@47.20:47.31VARIABLEB
+8src\main\java\com\scm\controllers\ContactController.java/ /("
+typeContactForm"
+isFinalfalse"€
+declarationStringk<mark class="modifier"> </mark>ContactForm <mark class="class-field">contactForm</mark> = new ContactForm()*contactForm2e
+com.scm.forms.ContactFormTYPEB
+8src\main\java\com\scm\controllers\ContactController.java/ /(2s
+'com.scm.forms.ContactForm.ContactForm()CALLB
+8src\main\java\com\scm\controllers\ContactController.java/$ /(/Ý
+Xcom.scm.controllers.ContactController.addContactView(org.springframework.ui.Model)!model	PARAMETERB
+8src\main\java\com\scm\controllers\ContactController.java-' -(,"
+typeModel"
+isFinalfalse" 
+declarationStringModel model*model2h
+org.springframework.ui.ModelTYPEB
+8src\main\java\com\scm\controllers\ContactController.java-! -(&Üo
+Îcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)METHODB
+8src\main\java\com\scm\controllers\ContactController.java7 7("
+isFinalfalse"Ý
+declarationStringÇ <mark class="annotation">@ModelAttribute</mark> ContactForm contactForm<mark class="modifier"><mark class="modifier">,</mark></mark> BindingResult result<mark class="modifier"><mark class="modifier">,</mark></mark> Authentication authentication<mark class="modifier"><mark class="modifier">,</mark></mark> HttpSession session)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*saveContact2e
+java.util.UUID.toString()CALLB
+8src\main\java\com\scm\controllers\ContactController.java=, =(42g
+java.util.UUID.randomUUID()CALLB
+8src\main\java\com\scm\controllers\ContactController.java= =()2ª
+^com.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)CALLB
+8src\main\java\com\scm\controllers\ContactController.javaP P(52‰
+=com.scm.services.UserService.getUserByEmail(java.lang.String)CALLB
+8src\main\java\com\scm\controllers\ContactController.javaS  S(.2Š
+>com.scm.services.ContactService.save(com.scm.entities.Contact)CALLB
+8src\main\java\com\scm\controllers\ContactController.javac c(2y
+-java.io.PrintStream.println(java.lang.Object)CALLB
+8src\main\java\com\scm\controllers\ContactController.javad d(2n
+"com.scm.entities.Contact.Contact()CALLB
+8src\main\java\com\scm\controllers\ContactController.javaU U(#2Š
+>com.scm.controllers.ContactController?imageService@42.25:42.37CALLB
+8src\main\java\com\scm\controllers\ContactController.java> >($2§
+Úcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!contactFormCALLB
+8src\main\java\com\scm\controllers\ContactController.java>1 >(<2°
+ãcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?filename@61.15:61.23CALLB
+8src\main\java\com\scm\controllers\ContactController.java>P >(X2¢
+Õcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!resultCALLB
+8src\main\java\com\scm\controllers\ContactController.javaF F(2£
+Öcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!sessionCALLB
+8src\main\java\com\scm\controllers\ContactController.javaG G(2ª
+Ýcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!authenticationCALLB
+8src\main\java\com\scm\controllers\ContactController.javaP6 P(D2‰
+=com.scm.controllers.ContactController?userService@39.24:39.35CALLB
+8src\main\java\com\scm\controllers\ContactController.javaS S(2°
+ãcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?username@80.15:80.23CALLB
+8src\main\java\com\scm\controllers\ContactController.javaS/ S(72¯
+âcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?contact@85.16:85.23CALLB
+8src\main\java\com\scm\controllers\ContactController.javaV V(2§
+Úcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!contactFormCALLB
+8src\main\java\com\scm\controllers\ContactController.javaV V(#2¯
+âcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?contact@85.16:85.23CALLB
+8src\main\java\com\scm\controllers\ContactController.javaW W(2§
+Úcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!contactFormCALLB
+8src\main\java\com\scm\controllers\ContactController.javaW W($2¯
+âcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?contact@85.16:85.23CALLB
+8src\main\java\com\scm\controllers\ContactController.javaX X(2§
+Úcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!contactFormCALLB
+8src\main\java\com\scm\controllers\ContactController.javaX X((2¯
+âcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?contact@85.16:85.23CALLB
+8src\main\java\com\scm\controllers\ContactController.javaY Y(2§
+Úcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!contactFormCALLB
+8src\main\java\com\scm\controllers\ContactController.javaY Y(*2¯
+âcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?contact@85.16:85.23CALLB
+8src\main\java\com\scm\controllers\ContactController.javaZ Z(2§
+Úcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!contactFormCALLB
+8src\main\java\com\scm\controllers\ContactController.javaZ Z(*2¯
+âcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?contact@85.16:85.23CALLB
+8src\main\java\com\scm\controllers\ContactController.java[ [(2§
+Úcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!contactFormCALLB
+8src\main\java\com\scm\controllers\ContactController.java[ [(&2¯
+âcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?contact@85.16:85.23CALLB
+8src\main\java\com\scm\controllers\ContactController.java\ \(2¬
+ßcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?user@83.14:83.18CALLB
+8src\main\java\com\scm\controllers\ContactController.java\ \(2¯
+âcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?contact@85.16:85.23CALLB
+8src\main\java\com\scm\controllers\ContactController.java] ](2§
+Úcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!contactFormCALLB
+8src\main\java\com\scm\controllers\ContactController.java]  ](+2¯
+âcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?contact@85.16:85.23CALLB
+8src\main\java\com\scm\controllers\ContactController.java^ ^(2§
+Úcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!contactFormCALLB
+8src\main\java\com\scm\controllers\ContactController.java^ ^(*2¯
+âcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?contact@85.16:85.23CALLB
+8src\main\java\com\scm\controllers\ContactController.java_ _(2¯
+âcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?fileURL@62.15:62.22CALLB
+8src\main\java\com\scm\controllers\ContactController.java_ _("2¯
+âcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?contact@85.16:85.23CALLB
+8src\main\java\com\scm\controllers\ContactController.java` `(2°
+ãcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?filename@61.15:61.23CALLB
+8src\main\java\com\scm\controllers\ContactController.java`+ `(32Œ
+@com.scm.controllers.ContactController?contactService@36.27:36.41CALLB
+8src\main\java\com\scm\controllers\ContactController.javac c(2¯
+âcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?contact@85.16:85.23CALLB
+8src\main\java\com\scm\controllers\ContactController.javac c(#2§
+Úcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!contactFormCALLB
+8src\main\java\com\scm\controllers\ContactController.javad d(&2£
+Öcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!sessionCALLB
+8src\main\java\com\scm\controllers\ContactController.javaf f(2¬
+Úcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!contactForm	PARAMETERB
+8src\main\java\com\scm\controllers\ContactController.java7A 7(L2§
+Õcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!result	PARAMETERB
+8src\main\java\com\scm\controllers\ContactController.java7[ 7(a2¯
+Ýcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!authentication	PARAMETERB
+8src\main\java\com\scm\controllers\ContactController.java7q 7(2ª
+Öcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!session	PARAMETERD
+8src\main\java\com\scm\controllers\ContactController.java7Œ 7(“2·
+ãcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?filename@61.15:61.23DECLARATIONB
+8src\main\java\com\scm\controllers\ContactController.java= =(2¶
+âcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?fileURL@62.15:62.22DECLARATIONB
+8src\main\java\com\scm\controllers\ContactController.java> >(2·
+ãcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?username@80.15:80.23DECLARATIONB
+8src\main\java\com\scm\controllers\ContactController.javaP P(2³
+ßcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?user@83.14:83.18DECLARATIONB
+8src\main\java\com\scm\controllers\ContactController.javaS S(2¶
+âcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?contact@85.16:85.23DECLARATIONB
+8src\main\java\com\scm\controllers\ContactController.javaU U(2c
+java.lang.StringRETURN_TYPEB
+8src\main\java\com\scm\controllers\ContactController.java7 7(”
+ãcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?filename@61.15:61.23VARIABLEB
+8src\main\java\com\scm\controllers\ContactController.java= =("
+typeString"
+isFinalfalse"ƒ
+declarationStringn<mark class="modifier"> </mark>String <mark class="class-field">filename</mark> = UUID.randomUUID().toString()*filename2\
+java.lang.StringTYPEB
+8src\main\java\com\scm\controllers\ContactController.java= =(2e
+java.util.UUID.toString()CALLB
+8src\main\java\com\scm\controllers\ContactController.java=, =(42g
+java.util.UUID.randomUUID()CALLB
+8src\main\java\com\scm\controllers\ContactController.java= =()ï
+
+âcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?fileURL@62.15:62.22VARIABLEB
+8src\main\java\com\scm\controllers\ContactController.java> >("
+typeString"
+isFinalfalse"Æ
+declarationString°<mark class="modifier"> </mark>String <mark class="class-field">fileURL</mark> = imageService.uploadImage(contactForm.getContactImage()<mark class="modifier">,</mark> filename)*fileURL2\
+java.lang.StringTYPEB
+8src\main\java\com\scm\controllers\ContactController.java> >(2Š
+>com.scm.controllers.ContactController?imageService@42.25:42.37CALLB
+8src\main\java\com\scm\controllers\ContactController.java> >($2§
+Úcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!contactFormCALLB
+8src\main\java\com\scm\controllers\ContactController.java>1 >(<2°
+ãcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?filename@61.15:61.23CALLB
+8src\main\java\com\scm\controllers\ContactController.java>P >(X¯
+ãcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?username@80.15:80.23VARIABLEB
+8src\main\java\com\scm\controllers\ContactController.javaP P("
+typeString"
+isFinalfalse"”
+declarationString<mark class="modifier"> </mark>String <mark class="class-field">username</mark> = Helper.getEmailOfLoggedInUser(authentication)*username2\
+java.lang.StringTYPEB
+8src\main\java\com\scm\controllers\ContactController.javaP P(2ª
+^com.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)CALLB
+8src\main\java\com\scm\controllers\ContactController.javaP P(52ª
+Ýcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!authenticationCALLB
+8src\main\java\com\scm\controllers\ContactController.javaP6 P(DŒ	
+ßcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?user@83.14:83.18VARIABLEB
+8src\main\java\com\scm\controllers\ContactController.javaS S("
+typeUser"
+isFinalfalse"…
+declarationStringp<mark class="modifier"> </mark>User <mark class="class-field">user</mark> = userService.getUserByEmail(username)*user2a
+com.scm.entities.UserTYPEB
+8src\main\java\com\scm\controllers\ContactController.javaS	 S(2‰
+=com.scm.services.UserService.getUserByEmail(java.lang.String)CALLB
+8src\main\java\com\scm\controllers\ContactController.javaS  S(.2‰
+=com.scm.controllers.ContactController?userService@39.24:39.35CALLB
+8src\main\java\com\scm\controllers\ContactController.javaS S(2°
+ãcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?username@80.15:80.23CALLB
+8src\main\java\com\scm\controllers\ContactController.javaS/ S(7«
+âcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)?contact@85.16:85.23VARIABLEB
+8src\main\java\com\scm\controllers\ContactController.javaU U("
+typeContact"
+isFinalfalse"t
+declarationString_<mark class="modifier"> </mark>Contact <mark class="class-field">contact</mark> = new Contact()*contact2d
+com.scm.entities.ContactTYPEB
+8src\main\java\com\scm\controllers\ContactController.javaU U(2n
+"com.scm.entities.Contact.Contact()CALLB
+8src\main\java\com\scm\controllers\ContactController.javaU U(#Í
+Úcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!contactForm	PARAMETERB
+8src\main\java\com\scm\controllers\ContactController.java7A 7(L"
+typeContactForm"
+isFinalfalse"ƒ
+declarationStringn<mark class="annotation">@Valid</mark> <mark class="annotation">@ModelAttribute</mark> ContactForm contactForm*contactForm2e
+com.scm.forms.ContactFormTYPEB
+8src\main\java\com\scm\controllers\ContactController.java75 7(@ý
+Õcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!result	PARAMETERB
+8src\main\java\com\scm\controllers\ContactController.java7[ 7(a"
+typeBindingResult"
+isFinalfalse")
+declarationStringBindingResult result*result2x
+,org.springframework.validation.BindingResultTYPEB
+8src\main\java\com\scm\controllers\ContactController.java7M 7(Z›
+Ýcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!authentication	PARAMETERB
+8src\main\java\com\scm\controllers\ContactController.java7q 7("
+typeAuthentication"
+isFinalfalse"2
+declarationStringAuthentication authentication*authentication2|
+0org.springframework.security.core.AuthenticationTYPEB
+8src\main\java\com\scm\controllers\ContactController.java7b 7(pô
+Öcom.scm.controllers.ContactController.saveContact(com.scm.forms.ContactForm, org.springframework.validation.BindingResult, org.springframework.security.core.Authentication, jakarta.servlet.http.HttpSession)!session	PARAMETERD
+8src\main\java\com\scm\controllers\ContactController.java7Œ 7(“"
+typeHttpSession"
+isFinalfalse"(
+declarationStringHttpSession session*session2n
+ jakarta.servlet.http.HttpSessionTYPED
+8src\main\java\com\scm\controllers\ContactController.java7€ 7(‹â
+8com.scm.controllers.ContactController?logger@33.11:33.17VARIABLEB
+8src\main\java\com\scm\controllers\ContactController.java! !("
+isFinalfalse"
+typeLogger"¡
+declarationString‹<mark class="modifier"> </mark>Logger <mark class="class-field">logger</mark> = org.slf4j.LoggerFactory.getLogger(ContactController.class);"
+isStaticfalse"
+accesspackage_private*logger2\
+org.slf4j.LoggerTYPEB
+8src\main\java\com\scm\controllers\ContactController.java! !(
+Ø
+@com.scm.controllers.ContactController?contactService@36.27:36.41VARIABLEB
+8src\main\java\com\scm\controllers\ContactController.java$ $()"
+isFinalfalse"
+typeContactService"y
+declarationStringd<mark class="modifier">private </mark>ContactService <mark class="class-field">contactService</mark>"
+isStaticfalse"
+accessprivate*contactService2k
+com.scm.services.ContactServiceTYPEB
+8src\main\java\com\scm\controllers\ContactController.java$ $(Æ
+=com.scm.controllers.ContactController?userService@39.24:39.35VARIABLEB
+8src\main\java\com\scm\controllers\ContactController.java' '(#"
+isFinalfalse"
+typeUserService"s
+declarationString^<mark class="modifier">private </mark>UserService <mark class="class-field">userService</mark>"
+isStaticfalse"
+accessprivate*userService2h
+com.scm.services.UserServiceTYPEB
+8src\main\java\com\scm\controllers\ContactController.java' '(Ì
+>com.scm.controllers.ContactController?imageService@42.25:42.37VARIABLEB
+8src\main\java\com\scm\controllers\ContactController.java* *(%"
+isFinalfalse"
+typeImageService"u
+declarationString`<mark class="modifier">private </mark>ImageService <mark class="class-field">imageService</mark>"
+isStaticfalse"
+accessprivate*imageService2i
+com.scm.services.ImageServiceTYPEB
+8src\main\java\com\scm\controllers\ContactController.java* *(

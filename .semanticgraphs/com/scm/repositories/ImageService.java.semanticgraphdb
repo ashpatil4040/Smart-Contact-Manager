@@ -1,0 +1,34 @@
+
+4src\main\java\com\scm\repositories\ImageService.javaü
+com.scm.services.ImageServiceTRAIT>
+4src\main\java\com\scm\repositories\ImageService.java ("
+packagecom.scm.services"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"n
+declarationStringY<mark class="modifier">public </mark><mark class="modifier">interface </mark>ImageService"
+accesspublic*ImageService2©
+Zcom.scm.services.ImageService.uploadImage(org.springframework.web.multipart.MultipartFile)DECLARATION>
+4src\main\java\com\scm\repositories\ImageService.java (®
+Zcom.scm.services.ImageService.uploadImage(org.springframework.web.multipart.MultipartFile)METHOD>
+4src\main\java\com\scm\repositories\ImageService.java ("
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark>String <mark class="method">uploadImage</mark>(MultipartFile contactImage)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*uploadImage2´
+gcom.scm.services.ImageService.uploadImage(org.springframework.web.multipart.MultipartFile)!contactImage	PARAMETER>
+4src\main\java\com\scm\repositories\ImageService.java% (12_
+java.lang.StringRETURN_TYPE>
+4src\main\java\com\scm\repositories\ImageService.java (
+•
+gcom.scm.services.ImageService.uploadImage(org.springframework.web.multipart.MultipartFile)!contactImage	PARAMETER>
+4src\main\java\com\scm\repositories\ImageService.java% (1"
+typeMultipartFile"
+isFinalfalse"/
+declarationStringMultipartFile contactImage*contactImage2w
+/org.springframework.web.multipart.MultipartFileTYPE>
+4src\main\java\com\scm\repositories\ImageService.java ($

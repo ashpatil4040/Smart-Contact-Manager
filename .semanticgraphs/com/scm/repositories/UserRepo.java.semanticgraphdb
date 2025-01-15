@@ -1,0 +1,74 @@
+
+0src\main\java\com\scm\repositories\UserRepo.java‰
+com.scm.repositories.UserRepoTRAIT:
+0src\main\java\com\scm\repositories\UserRepo.java	 	("
+packagecom.scm.repositories"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"­
+declarationString—<mark class="modifier">public </mark><mark class="modifier">interface </mark>UserRepo<mark class="modifier"> extends </mark>JpaRepository<User, String>"
+accesspublic*UserRepo2†
+;com.scm.repositories.UserRepo.findByEmail(java.lang.String)DECLARATION:
+0src\main\java\com\scm\repositories\UserRepo.java (2£
+Xcom.scm.repositories.UserRepo.findByEmailAndPassword(java.lang.String, java.lang.String)DECLARATION:
+0src\main\java\com\scm\repositories\UserRepo.java (*2{
+5org.springframework.data.jpa.repository.JpaRepositoryEXTEND:
+0src\main\java\com\scm\repositories\UserRepo.java	" 	(/2i
+com.scm.entities.UserEXTEND_TYPE_ARGUMENT:
+0src\main\java\com\scm\repositories\UserRepo.java	0 	(42d
+java.lang.StringEXTEND_TYPE_ARGUMENT:
+0src\main\java\com\scm\repositories\UserRepo.java	5 	(;Ò
+;com.scm.repositories.UserRepo.findByEmail(java.lang.String)METHOD:
+0src\main\java\com\scm\repositories\UserRepo.java ("
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark>Optional&lt;User&gt; <mark class="method">findByEmail</mark>(String email)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeOptional<User>*findByEmail2Š
+Acom.scm.repositories.UserRepo.findByEmail(java.lang.String)!email	PARAMETER:
+0src\main\java\com\scm\repositories\UserRepo.java' (,2]
+java.util.OptionalRETURN_TYPE:
+0src\main\java\com\scm\repositories\UserRepo.java (2i
+com.scm.entities.UserRETURN_TYPE_ARGUMENT:
+0src\main\java\com\scm\repositories\UserRepo.java (¬
+Acom.scm.repositories.UserRepo.findByEmail(java.lang.String)!email	PARAMETER:
+0src\main\java\com\scm\repositories\UserRepo.java' (,"
+typeString"
+isFinalfalse"!
+declarationStringString email*email2T
+java.lang.StringTYPE:
+0src\main\java\com\scm\repositories\UserRepo.java  (&ž
+Xcom.scm.repositories.UserRepo.findByEmailAndPassword(java.lang.String, java.lang.String)METHOD:
+0src\main\java\com\scm\repositories\UserRepo.java (*"
+isFinalfalse"×
+declarationStringÁ<mark class="modifier"> </mark>Optional&lt;User&gt; <mark class="method">findByEmailAndPassword</mark>(String email<mark class="modifier"><mark class="modifier">,</mark></mark> String password)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeOptional<User>*findByEmailAndPassword2§
+^com.scm.repositories.UserRepo.findByEmailAndPassword(java.lang.String, java.lang.String)!email	PARAMETER:
+0src\main\java\com\scm\repositories\UserRepo.java2 (72ª
+acom.scm.repositories.UserRepo.findByEmailAndPassword(java.lang.String, java.lang.String)!password	PARAMETER:
+0src\main\java\com\scm\repositories\UserRepo.java@ (H2]
+java.util.OptionalRETURN_TYPE:
+0src\main\java\com\scm\repositories\UserRepo.java (2i
+com.scm.entities.UserRETURN_TYPE_ARGUMENT:
+0src\main\java\com\scm\repositories\UserRepo.java (É
+^com.scm.repositories.UserRepo.findByEmailAndPassword(java.lang.String, java.lang.String)!email	PARAMETER:
+0src\main\java\com\scm\repositories\UserRepo.java2 (7"
+typeString"
+isFinalfalse"!
+declarationStringString email*email2T
+java.lang.StringTYPE:
+0src\main\java\com\scm\repositories\UserRepo.java+ (1Ò
+acom.scm.repositories.UserRepo.findByEmailAndPassword(java.lang.String, java.lang.String)!password	PARAMETER:
+0src\main\java\com\scm\repositories\UserRepo.java@ (H"
+typeString"
+isFinalfalse"$
+declarationStringString password*password2T
+java.lang.StringTYPE:
+0src\main\java\com\scm\repositories\UserRepo.java9 (?

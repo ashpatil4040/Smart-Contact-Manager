@@ -1,0 +1,66 @@
+
+.src\main\java\com\scm\helper\AppConstants.javaƒ
+com.scm.helper.AppConstantsCLASS8
+.src\main\java\com\scm\helper\AppConstants.java ("
+packagecom.scm.helper"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"j
+declarationStringU<mark class="modifier">public </mark><mark class="modifier">class </mark>AppConstants"
+accesspublic*AppConstants2w
+.com.scm.helper.AppConstants?APP_NAME@4.31:4.39DECLARATION8
+.src\main\java\com\scm\helper\AppConstants.java ('2x
+/com.scm.helper.AppConstants?ROLE_USER@5.31:5.40DECLARATION8
+.src\main\java\com\scm\helper\AppConstants.java ((2Ç
+9com.scm.helper.AppConstants?CONTACT_IMAGE_WIDTH@7.28:7.47DECLARATION8
+.src\main\java\com\scm\helper\AppConstants.java (/2É
+:com.scm.helper.AppConstants?CONTACT_IMAGE_HEIGHT@8.28:8.48DECLARATION8
+.src\main\java\com\scm\helper\AppConstants.java (02Å
+8com.scm.helper.AppConstants?CONTACT_IMAGE_CROP@9.31:9.49DECLARATION8
+.src\main\java\com\scm\helper\AppConstants.java	 	(1‘
+.com.scm.helper.AppConstants?APP_NAME@4.31:4.39VALUE8
+.src\main\java\com\scm\helper\AppConstants.java ('"
+isFinaltrue"
+typeString"Ω
+declarationStringß<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">APP_NAME</mark> = "SCM";"
+isStatictrue"
+accesspublic*APP_NAME2R
+java.lang.StringTYPE8
+.src\main\java\com\scm\helper\AppConstants.java (›
+/com.scm.helper.AppConstants?ROLE_USER@5.31:5.40VALUE8
+.src\main\java\com\scm\helper\AppConstants.java (("
+isFinaltrue"
+typeString"ƒ
+declarationStringÆ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">ROLE_USER</mark> = "USER_ROLE";"
+isStatictrue"
+accesspublic*	ROLE_USER2R
+java.lang.StringTYPE8
+.src\main\java\com\scm\helper\AppConstants.java (˛
+9com.scm.helper.AppConstants?CONTACT_IMAGE_WIDTH@7.28:7.47VALUE8
+.src\main\java\com\scm\helper\AppConstants.java (/"
+isFinaltrue"
+typeint"·
+declarationStringÀ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">CONTACT_IMAGE_WIDTH</mark> = 500;"
+isStatictrue"
+accesspublic*CONTACT_IMAGE_WIDTH2E
+intTYPE8
+.src\main\java\com\scm\helper\AppConstants.java (Å
+:com.scm.helper.AppConstants?CONTACT_IMAGE_HEIGHT@8.28:8.48VALUE8
+.src\main\java\com\scm\helper\AppConstants.java (0"
+isFinaltrue"
+typeint"‚
+declarationStringÃ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">CONTACT_IMAGE_HEIGHT</mark> = 500;"
+isStatictrue"
+accesspublic*CONTACT_IMAGE_HEIGHT2E
+intTYPE8
+.src\main\java\com\scm\helper\AppConstants.java (Û
+8com.scm.helper.AppConstants?CONTACT_IMAGE_CROP@9.31:9.49VALUE8
+.src\main\java\com\scm\helper\AppConstants.java	 	(1"
+isFinaltrue"
+typeString"»
+declarationString≤<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">CONTACT_IMAGE_CROP</mark> = "fill";"
+isStatictrue"
+accesspublic*CONTACT_IMAGE_CROP2R
+java.lang.StringTYPE8
+.src\main\java\com\scm\helper\AppConstants.java	 	(

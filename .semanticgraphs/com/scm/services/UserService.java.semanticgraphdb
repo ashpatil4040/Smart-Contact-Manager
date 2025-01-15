@@ -1,0 +1,200 @@
+
+/src\main\java\com\scm\services\UserService.java˛
+
+com.scm.services.UserServiceTRAIT9
+/src\main\java\com\scm\services\UserService.java ("
+packagecom.scm.services"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"m
+declarationStringX<mark class="modifier">public </mark><mark class="modifier">interface </mark>UserService"
+accesspublic*UserService2Ü
+<com.scm.services.UserService.saveUser(com.scm.entities.User)DECLARATION9
+/src\main\java\com\scm\services\UserService.java
+	 
+(2Ñ
+:com.scm.services.UserService.getUserById(java.lang.String)DECLARATION9
+/src\main\java\com\scm\services\UserService.java (2à
+>com.scm.services.UserService.updateUser(com.scm.entities.User)DECLARATION9
+/src\main\java\com\scm\services\UserService.java (2É
+9com.scm.services.UserService.deleteUser(java.lang.String)DECLARATION9
+/src\main\java\com\scm\services\UserService.java	 (2ã
+Acom.scm.services.UserService.isUserExistByEmail(java.lang.String)DECLARATION9
+/src\main\java\com\scm\services\UserService.java (2Ñ
+:com.scm.services.UserService.isUserExist(java.lang.String)DECLARATION9
+/src\main\java\com\scm\services\UserService.java (2t
+*com.scm.services.UserService.getAllUsers()DECLARATION9
+/src\main\java\com\scm\services\UserService.java (2á
+=com.scm.services.UserService.getUserByEmail(java.lang.String)DECLARATION9
+/src\main\java\com\scm\services\UserService.java	 (≈
+<com.scm.services.UserService.saveUser(com.scm.entities.User)METHOD9
+/src\main\java\com\scm\services\UserService.java
+	 
+("
+isFinalfalse"h
+declarationStringS<mark class="modifier"> </mark>User <mark class="method">saveUser</mark>(User user)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeUser*saveUser2â
+Acom.scm.services.UserService.saveUser(com.scm.entities.User)!user	PARAMETER9
+/src\main\java\com\scm\services\UserService.java
+ 
+(2_
+com.scm.entities.UserRETURN_TYPE9
+/src\main\java\com\scm\services\UserService.java
+ 
+(©
+Acom.scm.services.UserService.saveUser(com.scm.entities.User)!user	PARAMETER9
+/src\main\java\com\scm\services\UserService.java
+ 
+("
+typeUser"
+isFinalfalse"
+declarationString	User user*user2X
+com.scm.entities.UserTYPE9
+/src\main\java\com\scm\services\UserService.java
+ 
+(∆
+:com.scm.services.UserService.getUserById(java.lang.String)METHOD9
+/src\main\java\com\scm\services\UserService.java ("
+isFinalfalse"{
+declarationStringf<mark class="modifier"> </mark>Optional&lt;User&gt; <mark class="method">getUserById</mark>(String id)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeOptional<User>*getUserById2Ö
+=com.scm.services.UserService.getUserById(java.lang.String)!id	PARAMETER9
+/src\main\java\com\scm\services\UserService.java& ((2\
+java.util.OptionalRETURN_TYPE9
+/src\main\java\com\scm\services\UserService.java (2h
+com.scm.entities.UserRETURN_TYPE_ARGUMENT9
+/src\main\java\com\scm\services\UserService.java (†
+=com.scm.services.UserService.getUserById(java.lang.String)!id	PARAMETER9
+/src\main\java\com\scm\services\UserService.java& (("
+typeString"
+isFinalfalse"
+declarationString	String id*id2S
+java.lang.StringTYPE9
+/src\main\java\com\scm\services\UserService.java (%Œ
+>com.scm.services.UserService.updateUser(com.scm.entities.User)METHOD9
+/src\main\java\com\scm\services\UserService.java ("
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>Optional&lt;User&gt; <mark class="method">updateUser</mark>(User user)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeOptional<User>*
+updateUser2ã
+Ccom.scm.services.UserService.updateUser(com.scm.entities.User)!user	PARAMETER9
+/src\main\java\com\scm\services\UserService.java# ('2\
+java.util.OptionalRETURN_TYPE9
+/src\main\java\com\scm\services\UserService.java (2h
+com.scm.entities.UserRETURN_TYPE_ARGUMENT9
+/src\main\java\com\scm\services\UserService.java (´
+Ccom.scm.services.UserService.updateUser(com.scm.entities.User)!user	PARAMETER9
+/src\main\java\com\scm\services\UserService.java# ('"
+typeUser"
+isFinalfalse"
+declarationString	User user*user2X
+com.scm.entities.UserTYPE9
+/src\main\java\com\scm\services\UserService.java ("œ
+9com.scm.services.UserService.deleteUser(java.lang.String)METHOD9
+/src\main\java\com\scm\services\UserService.java	 ("
+isFinalfalse"à
+declarationStrings<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">deleteUser</mark>(String id)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*
+deleteUser2Ñ
+<com.scm.services.UserService.deleteUser(java.lang.String)!id	PARAMETER9
+/src\main\java\com\scm\services\UserService.java (2N
+voidRETURN_TYPE9
+/src\main\java\com\scm\services\UserService.java (ü
+<com.scm.services.UserService.deleteUser(java.lang.String)!id	PARAMETER9
+/src\main\java\com\scm\services\UserService.java ("
+typeString"
+isFinalfalse"
+declarationString	String id*id2S
+java.lang.StringTYPE9
+/src\main\java\com\scm\services\UserService.java (ˇ
+Acom.scm.services.UserService.isUserExistByEmail(java.lang.String)METHOD9
+/src\main\java\com\scm\services\UserService.java ("
+isFinalfalse"ó
+declarationStringÅ<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isUserExistByEmail</mark>(String email)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isUserExistByEmail2è
+Gcom.scm.services.UserService.isUserExistByEmail(java.lang.String)!email	PARAMETER9
+/src\main\java\com\scm\services\UserService.java& (+2Q
+booleanRETURN_TYPE9
+/src\main\java\com\scm\services\UserService.java (∞
+Gcom.scm.services.UserService.isUserExistByEmail(java.lang.String)!email	PARAMETER9
+/src\main\java\com\scm\services\UserService.java& (+"
+typeString"
+isFinalfalse"!
+declarationStringString email*email2S
+java.lang.StringTYPE9
+/src\main\java\com\scm\services\UserService.java (%‰
+:com.scm.services.UserService.isUserExist(java.lang.String)METHOD9
+/src\main\java\com\scm\services\UserService.java ("
+isFinalfalse"ê
+declarationString{<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isUserExist</mark>(String userId)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isUserExist2â
+Acom.scm.services.UserService.isUserExist(java.lang.String)!userId	PARAMETER9
+/src\main\java\com\scm\services\UserService.java (%2Q
+booleanRETURN_TYPE9
+/src\main\java\com\scm\services\UserService.java (¨
+Acom.scm.services.UserService.isUserExist(java.lang.String)!userId	PARAMETER9
+/src\main\java\com\scm\services\UserService.java (%"
+typeString"
+isFinalfalse""
+declarationStringString userId*userId2S
+java.lang.StringTYPE9
+/src\main\java\com\scm\services\UserService.java (ô
+*com.scm.services.UserService.getAllUsers()METHOD9
+/src\main\java\com\scm\services\UserService.java ("
+isFinalfalse"n
+declarationStringY<mark class="modifier"> </mark>List&lt;User&gt; <mark class="method">getAllUsers</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+type
+List<User>*getAllUsers2X
+java.util.ListRETURN_TYPE9
+/src\main\java\com\scm\services\UserService.java (2h
+com.scm.entities.UserRETURN_TYPE_ARGUMENT9
+/src\main\java\com\scm\services\UserService.java	 (◊
+=com.scm.services.UserService.getUserByEmail(java.lang.String)METHOD9
+/src\main\java\com\scm\services\UserService.java	 ("
+isFinalfalse"q
+declarationString\<mark class="modifier"> </mark>User <mark class="method">getUserByEmail</mark>(String email)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeUser*getUserByEmail2ã
+Ccom.scm.services.UserService.getUserByEmail(java.lang.String)!email	PARAMETER9
+/src\main\java\com\scm\services\UserService.java ($2_
+com.scm.entities.UserRETURN_TYPE9
+/src\main\java\com\scm\services\UserService.java (¨
+Ccom.scm.services.UserService.getUserByEmail(java.lang.String)!email	PARAMETER9
+/src\main\java\com\scm\services\UserService.java ($"
+typeString"
+isFinalfalse"!
+declarationStringString email*email2S
+java.lang.StringTYPE9
+/src\main\java\com\scm\services\UserService.java (

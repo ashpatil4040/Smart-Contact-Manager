@@ -1,0 +1,56 @@
+
+Hsrc\main\java\com\scm\services\impl\SecurityCustomUserDetailService.java¢
+5com.scm.services.impl.SecurityCustomUserDetailServiceCLASSR
+Hsrc\main\java\com\scm\services\impl\SecurityCustomUserDetailService.java (," 
+packagecom.scm.services.impl"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ê
+declarationStringÔ<mark class="annotation">@Service</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>SecurityCustomUserDetailService<mark class="modifier"><br>implements </mark>UserDetailsService"
+accesspublic*SecurityCustomUserDetailService2½
+Zcom.scm.services.impl.SecurityCustomUserDetailService.loadUserByUsername(java.lang.String)DECLARATIONR
+Hsrc\main\java\com\scm\services\impl\SecurityCustomUserDetailService.java ()2­
+Jcom.scm.services.impl.SecurityCustomUserDetailService?userRepo@15.21:15.29DECLARATIONR
+Hsrc\main\java\com\scm\services\impl\SecurityCustomUserDetailService.java (2ž
+@org.springframework.security.core.userdetails.UserDetailsServiceEXTENDR
+Hsrc\main\java\com\scm\services\impl\SecurityCustomUserDetailService.java8 (J•
+Zcom.scm.services.impl.SecurityCustomUserDetailService.loadUserByUsername(java.lang.String)METHODR
+Hsrc\main\java\com\scm\services\impl\SecurityCustomUserDetailService.java ()"
+isFinalfalse"‘
+declarationStringû<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>UserDetails <mark class="method">loadUserByUsername</mark>(String username)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>UsernameNotFoundException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeUserDetails*loadUserByUsername2¤
+Hjava.util.Optional.orElseThrow(java.util.function.Supplier<? extends X>)CALLR
+Hsrc\main\java\com\scm\services\impl\SecurityCustomUserDetailService.java ($2—
+;com.scm.repositories.UserRepo.findByEmail(java.lang.String)CALLR
+Hsrc\main\java\com\scm\services\impl\SecurityCustomUserDetailService.java (#2¦
+Jcom.scm.services.impl.SecurityCustomUserDetailService?userRepo@15.21:15.29CALLR
+Hsrc\main\java\com\scm\services\impl\SecurityCustomUserDetailService.java (2¿
+ccom.scm.services.impl.SecurityCustomUserDetailService.loadUserByUsername(java.lang.String)!usernameCALLR
+Hsrc\main\java\com\scm\services\impl\SecurityCustomUserDetailService.java$ (,2¿
+ccom.scm.services.impl.SecurityCustomUserDetailService.loadUserByUsername(java.lang.String)!usernameCALLR
+Hsrc\main\java\com\scm\services\impl\SecurityCustomUserDetailService.javal (t2Ä
+ccom.scm.services.impl.SecurityCustomUserDetailService.loadUserByUsername(java.lang.String)!username	PARAMETERR
+Hsrc\main\java\com\scm\services\impl\SecurityCustomUserDetailService.java1 (92œ
+9org.springframework.security.core.userdetails.UserDetailsRETURN_TYPER
+Hsrc\main\java\com\scm\services\impl\SecurityCustomUserDetailService.java („
+ccom.scm.services.impl.SecurityCustomUserDetailService.loadUserByUsername(java.lang.String)!username	PARAMETERR
+Hsrc\main\java\com\scm\services\impl\SecurityCustomUserDetailService.java1 (9"
+typeString"
+isFinalfalse"$
+declarationStringString username*username2l
+java.lang.StringTYPER
+Hsrc\main\java\com\scm\services\impl\SecurityCustomUserDetailService.java* (0è
+Jcom.scm.services.impl.SecurityCustomUserDetailService?userRepo@15.21:15.29VARIABLER
+Hsrc\main\java\com\scm\services\impl\SecurityCustomUserDetailService.java ("
+isFinalfalse"
+typeUserRepo"m
+declarationStringX<mark class="modifier">private </mark>UserRepo <mark class="class-field">userRepo</mark>"
+isStaticfalse"
+accessprivate*userRepo2y
+com.scm.repositories.UserRepoTYPER
+Hsrc\main\java\com\scm\services\impl\SecurityCustomUserDetailService.java (

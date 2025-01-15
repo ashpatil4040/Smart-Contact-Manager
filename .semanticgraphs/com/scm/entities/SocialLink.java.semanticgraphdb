@@ -1,0 +1,57 @@
+
+.src\main\java\com\scm\entities\SocialLink.java¿
+com.scm.entities.SocialLinkCLASS8
+.src\main\java\com\scm\entities\SocialLink.java ("
+packagecom.scm.entities"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"â
+declarationStringÛ<mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="annotation">@NoArgsConstructor</mark> <br><mark class="annotation">@Builder</mark> <br><mark class="annotation">@Entity</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>SocialLink"
+accesspublic*
+SocialLink2s
+*com.scm.entities.SocialLink?id@23.17:23.19DECLARATION8
+.src\main\java\com\scm\entities\SocialLink.java (2u
+,com.scm.entities.SocialLink?link@24.19:24.23DECLARATION8
+.src\main\java\com\scm\entities\SocialLink.java (2v
+-com.scm.entities.SocialLink?title@25.19:25.24DECLARATION8
+.src\main\java\com\scm\entities\SocialLink.java (2x
+/com.scm.entities.SocialLink?contact@28.20:28.27DECLARATION8
+.src\main\java\com\scm\entities\SocialLink.java (ü
+*com.scm.entities.SocialLink?id@23.17:23.19VARIABLE8
+.src\main\java\com\scm\entities\SocialLink.java ("
+isFinalfalse"
+typeLong"ê
+declarationString{<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = GenerationType.IDENTITY)
+private Long id;"
+isStaticfalse"
+accessprivate*id2P
+java.lang.LongTYPE8
+.src\main\java\com\scm\entities\SocialLink.java (˝
+,com.scm.entities.SocialLink?link@24.19:24.23VARIABLE8
+.src\main\java\com\scm\entities\SocialLink.java ("
+isFinalfalse"
+typeString"g
+declarationStringR<mark class="modifier">private </mark>String <mark class="class-field">link</mark>"
+isStaticfalse"
+accessprivate*link2R
+java.lang.StringTYPE8
+.src\main\java\com\scm\entities\SocialLink.java (Ä
+-com.scm.entities.SocialLink?title@25.19:25.24VARIABLE8
+.src\main\java\com\scm\entities\SocialLink.java ("
+isFinalfalse"
+typeString"h
+declarationStringS<mark class="modifier">private </mark>String <mark class="class-field">title</mark>"
+isStaticfalse"
+accessprivate*title2R
+java.lang.StringTYPE8
+.src\main\java\com\scm\entities\SocialLink.java (ê
+/com.scm.entities.SocialLink?contact@28.20:28.27VARIABLE8
+.src\main\java\com\scm\entities\SocialLink.java ("
+isFinalfalse"
+typeContact"k
+declarationStringV<mark class="modifier">private </mark>Contact <mark class="class-field">contact</mark>"
+isStaticfalse"
+accessprivate*contact2Z
+com.scm.entities.ContactTYPE8
+.src\main\java\com\scm\entities\SocialLink.java (

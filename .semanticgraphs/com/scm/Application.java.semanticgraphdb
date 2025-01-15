@@ -1,0 +1,35 @@
+
+&src\main\java\com\scm\Application.java’
+com.scm.ApplicationCLASS0
+&src\main\java\com\scm\Application.java ("
+packagecom.scm"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"•
+declarationStringè<mark class="annotation">@SpringBootApplication</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Application"
+accesspublic*Application2m
+,com.scm.Application.main(java.lang.String[])DECLARATION0
+&src\main\java\com\scm\Application.java (¢
+,com.scm.Application.main(java.lang.String[])METHOD0
+&src\main\java\com\scm\Application.java ("
+isFinalfalse"≤
+declarationStringú<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">main</mark>(String[] args)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*main2k
+1com.scm.Application.main(java.lang.String[])!argsCALL0
+&src\main\java\com\scm\Application.java	+ 	(/2p
+1com.scm.Application.main(java.lang.String[])!args	PARAMETER0
+&src\main\java\com\scm\Application.java" (&2E
+voidRETURN_TYPE0
+&src\main\java\com\scm\Application.java (å
+1com.scm.Application.main(java.lang.String[])!args	PARAMETER0
+&src\main\java\com\scm\Application.java" (&"
+typeString[]"
+isFinalfalse""
+declarationStringString[] args*args2L
+java.lang.String[]TYPE0
+&src\main\java\com\scm\Application.java (!

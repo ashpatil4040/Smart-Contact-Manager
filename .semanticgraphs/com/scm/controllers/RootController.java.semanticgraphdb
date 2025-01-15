@@ -1,0 +1,120 @@
+
+5src\main\java\com\scm\controllers\RootController.javaá
+"com.scm.controllers.RootControllerCLASS?
+5src\main\java\com\scm\controllers\RootController.java ("
+packagecom.scm.controllers"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"£
+declarationStringç<mark class="annotation">@ControllerAdvice</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>RootController"
+accesspublic*RootController2ﬁ
+çcom.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)DECLARATION?
+5src\main\java\com\scm\controllers\RootController.java (*2Ö
+5com.scm.controllers.RootController?logger@16.19:16.25DECLARATION?
+5src\main\java\com\scm\controllers\RootController.java (2ä
+:com.scm.controllers.RootController?userService@19.24:19.35DECLARATION?
+5src\main\java\com\scm\controllers\RootController.java (#¢!
+çcom.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)METHOD?
+5src\main\java\com\scm\controllers\RootController.java (*"
+isFinalfalse"∞
+declarationStringö<mark class="annotation">@ModelAttribute</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addLoggedInUserInformation</mark>(Model model<mark class="modifier"><mark class="modifier">,</mark></mark> Authentication authentication)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addLoggedInUserInformation2v
+-java.io.PrintStream.println(java.lang.String)CALL?
+5src\main\java\com\scm\controllers\RootController.java (2ß
+^com.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)CALL?
+5src\main\java\com\scm\controllers\RootController.java  (62Ü
+=com.scm.services.UserService.getUserByEmail(java.lang.String)CALL?
+5src\main\java\com\scm\controllers\RootController.java% %(-2v
+-java.io.PrintStream.println(java.lang.String)CALL?
+5src\main\java\com\scm\controllers\RootController.java* *(2Ê
+úcom.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)!authenticationCALL?
+5src\main\java\com\scm\controllers\RootController.java (2Ê
+úcom.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)!authenticationCALL?
+5src\main\java\com\scm\controllers\RootController.java7 (E2~
+5com.scm.controllers.RootController?logger@16.19:16.25CALL?
+5src\main\java\com\scm\controllers\RootController.java! !(2Ï
+¢com.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)?username@31.15:31.23CALL?
+5src\main\java\com\scm\controllers\RootController.java!* !(22É
+:com.scm.controllers.RootController?userService@19.24:19.35CALL?
+5src\main\java\com\scm\controllers\RootController.java% %(2Ï
+¢com.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)?username@31.15:31.23CALL?
+5src\main\java\com\scm\controllers\RootController.java%. %(62~
+5com.scm.controllers.RootController?logger@16.19:16.25CALL?
+5src\main\java\com\scm\controllers\RootController.java' '(2Ë
+ûcom.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)?user@37.13:37.17CALL?
+5src\main\java\com\scm\controllers\RootController.java'* '(.2›
+ìcom.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)!modelCALL?
+5src\main\java\com\scm\controllers\RootController.java) )(2Ë
+ûcom.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)?user@37.13:37.17CALL?
+5src\main\java\com\scm\controllers\RootController.java)+ )(/2‚
+ìcom.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)!model	PARAMETER?
+5src\main\java\com\scm\controllers\RootController.java1 (62Î
+úcom.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)!authentication	PARAMETER?
+5src\main\java\com\scm\controllers\RootController.javaG (U2Û
+¢com.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)?username@31.15:31.23DECLARATION?
+5src\main\java\com\scm\controllers\RootController.java (2Ô
+ûcom.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)?user@37.13:37.17DECLARATION?
+5src\main\java\com\scm\controllers\RootController.java% %(2T
+voidRETURN_TYPE?
+5src\main\java\com\scm\controllers\RootController.java (°
+¢com.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)?username@31.15:31.23VARIABLE?
+5src\main\java\com\scm\controllers\RootController.java ("
+typeString"
+isFinalfalse"î
+declarationString<mark class="modifier"> </mark>String <mark class="class-field">username</mark> = Helper.getEmailOfLoggedInUser(authentication)*username2Y
+java.lang.StringTYPE?
+5src\main\java\com\scm\controllers\RootController.java (2ß
+^com.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)CALL?
+5src\main\java\com\scm\controllers\RootController.java  (62Ê
+úcom.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)!authenticationCALL?
+5src\main\java\com\scm\controllers\RootController.java7 (E¯
+ûcom.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)?user@37.13:37.17VARIABLE?
+5src\main\java\com\scm\controllers\RootController.java% %("
+typeUser"
+isFinalfalse"Ö
+declarationStringp<mark class="modifier"> </mark>User <mark class="class-field">user</mark> = userService.getUserByEmail(username)*user2^
+com.scm.entities.UserTYPE?
+5src\main\java\com\scm\controllers\RootController.java% %(2Ü
+=com.scm.services.UserService.getUserByEmail(java.lang.String)CALL?
+5src\main\java\com\scm\controllers\RootController.java% %(-2É
+:com.scm.controllers.RootController?userService@19.24:19.35CALL?
+5src\main\java\com\scm\controllers\RootController.java% %(2Ï
+¢com.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)?username@31.15:31.23CALL?
+5src\main\java\com\scm\controllers\RootController.java%. %(6ì
+ìcom.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)!model	PARAMETER?
+5src\main\java\com\scm\controllers\RootController.java1 (6"
+typeModel"
+isFinalfalse" 
+declarationStringModel model*model2e
+org.springframework.ui.ModelTYPE?
+5src\main\java\com\scm\controllers\RootController.java+ (0‘
+úcom.scm.controllers.RootController.addLoggedInUserInformation(org.springframework.ui.Model, org.springframework.security.core.Authentication)!authentication	PARAMETER?
+5src\main\java\com\scm\controllers\RootController.javaG (U"
+typeAuthentication"
+isFinalfalse"2
+declarationStringAuthentication authentication*authentication2y
+0org.springframework.security.core.AuthenticationTYPE?
+5src\main\java\com\scm\controllers\RootController.java8 (F’
+5com.scm.controllers.RootController?logger@16.19:16.25VARIABLE?
+5src\main\java\com\scm\controllers\RootController.java ("
+isFinalfalse"
+typeLogger"•
+declarationStringè<mark class="modifier">private </mark>Logger <mark class="class-field">logger</mark> = org.slf4j.LoggerFactory.getLogger(UserController.class);"
+isStaticfalse"
+accessprivate*logger2Y
+org.slf4j.LoggerTYPE?
+5src\main\java\com\scm\controllers\RootController.java (Ω
+:com.scm.controllers.RootController?userService@19.24:19.35VARIABLE?
+5src\main\java\com\scm\controllers\RootController.java (#"
+isFinalfalse"
+typeUserService"s
+declarationString^<mark class="modifier">private </mark>UserService <mark class="class-field">userService</mark>"
+isStaticfalse"
+accessprivate*userService2e
+com.scm.services.UserServiceTYPE?
+5src\main\java\com\scm\controllers\RootController.java (

@@ -1,0 +1,24 @@
+
++src\test\java\com\scm\ApplicationTests.javaÂ
+com.scm.ApplicationTestsCLASS5
++src\test\java\com\scm\ApplicationTests.java ("
+packagecom.scm"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ù
+declarationStringá<mark class="annotation">@SpringBootTest</mark> <br><mark class="modifier"> </mark><mark class="modifier">class </mark>ApplicationTests"
+accesspackage_private*ApplicationTests2m
+'com.scm.ApplicationTests.contextLoads()DECLARATION5
++src\test\java\com\scm\ApplicationTests.java	 	(‘
+'com.scm.ApplicationTests.contextLoads()METHOD5
++src\test\java\com\scm\ApplicationTests.java	 	("
+isFinalfalse"¨
+declarationStringñ<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">contextLoads</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*contextLoads2J
+voidRETURN_TYPE5
++src\test\java\com\scm\ApplicationTests.java	 	(

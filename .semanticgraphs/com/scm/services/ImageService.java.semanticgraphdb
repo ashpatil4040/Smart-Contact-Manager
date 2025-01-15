@@ -1,0 +1,66 @@
+
+0src\main\java\com\scm\services\ImageService.javañ
+com.scm.services.ImageServiceTRAIT:
+0src\main\java\com\scm\services\ImageService.java ("
+packagecom.scm.services"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"n
+declarationStringY<mark class="modifier">public </mark><mark class="modifier">interface </mark>ImageService"
+accesspublic*ImageService2∑
+lcom.scm.services.ImageService.uploadImage(org.springframework.web.multipart.MultipartFile, java.lang.String)DECLARATION:
+0src\main\java\com\scm\services\ImageService.java (2ç
+Bcom.scm.services.ImageService.getUrlFromPublicId(java.lang.String)DECLARATION:
+0src\main\java\com\scm\services\ImageService.java (÷
+lcom.scm.services.ImageService.uploadImage(org.springframework.web.multipart.MultipartFile, java.lang.String)METHOD:
+0src\main\java\com\scm\services\ImageService.java ("
+isFinalfalse"Ã
+declarationString∂<mark class="modifier"> </mark>String <mark class="method">uploadImage</mark>(MultipartFile contactImage<mark class="modifier"><mark class="modifier">,</mark></mark> String filename)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*uploadImage2¬
+ycom.scm.services.ImageService.uploadImage(org.springframework.web.multipart.MultipartFile, java.lang.String)!contactImage	PARAMETER:
+0src\main\java\com\scm\services\ImageService.java% (12æ
+ucom.scm.services.ImageService.uploadImage(org.springframework.web.multipart.MultipartFile, java.lang.String)!filename	PARAMETER:
+0src\main\java\com\scm\services\ImageService.java: (B2[
+java.lang.StringRETURN_TYPE:
+0src\main\java\com\scm\services\ImageService.java (
+ü
+ycom.scm.services.ImageService.uploadImage(org.springframework.web.multipart.MultipartFile, java.lang.String)!contactImage	PARAMETER:
+0src\main\java\com\scm\services\ImageService.java% (1"
+typeMultipartFile"
+isFinalfalse"/
+declarationStringMultipartFile contactImage*contactImage2s
+/org.springframework.web.multipart.MultipartFileTYPE:
+0src\main\java\com\scm\services\ImageService.java ($Ê
+ucom.scm.services.ImageService.uploadImage(org.springframework.web.multipart.MultipartFile, java.lang.String)!filename	PARAMETER:
+0src\main\java\com\scm\services\ImageService.java: (B"
+typeString"
+isFinalfalse"$
+declarationStringString filename*filename2T
+java.lang.StringTYPE:
+0src\main\java\com\scm\services\ImageService.java3 (9Ò
+Bcom.scm.services.ImageService.getUrlFromPublicId(java.lang.String)METHOD:
+0src\main\java\com\scm\services\ImageService.java ("
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>String <mark class="method">getUrlFromPublicId</mark>(String publicId)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*getUrlFromPublicId2î
+Kcom.scm.services.ImageService.getUrlFromPublicId(java.lang.String)!publicId	PARAMETER:
+0src\main\java\com\scm\services\ImageService.java% (-2[
+java.lang.StringRETURN_TYPE:
+0src\main\java\com\scm\services\ImageService.java (
+º
+Kcom.scm.services.ImageService.getUrlFromPublicId(java.lang.String)!publicId	PARAMETER:
+0src\main\java\com\scm\services\ImageService.java% (-"
+typeString"
+isFinalfalse"$
+declarationStringString publicId*publicId2T
+java.lang.StringTYPE:
+0src\main\java\com\scm\services\ImageService.java ($

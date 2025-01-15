@@ -1,0 +1,173 @@
+
+0src\main\java\com\scm\config\SecurityConfig.javaœ
+com.scm.config.SecurityConfigCLASS:
+0src\main\java\com\scm\config\SecurityConfig.java ("
+packagecom.scm.config"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"†
+declarationStringä<mark class="annotation">@Configuration</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>SecurityConfig"
+accesspublic*SecurityConfig2Å
+6com.scm.config.SecurityConfig.authenticationProvider()DECLARATION:
+0src\main\java\com\scm\config\SecurityConfig.java+% +(;2∆
+{com.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)DECLARATION:
+0src\main\java\com\scm\config\SecurityConfig.java8 8(22z
+/com.scm.config.SecurityConfig.passwordEncoder()DECLARATION:
+0src\main\java\com\scm\config\SecurityConfig.java} }(*2Ü
+;com.scm.config.SecurityConfig?userDetailService@35.44:35.61DECLARATION:
+0src\main\java\com\scm\config\SecurityConfig.java#, #(=2|
+1com.scm.config.SecurityConfig?handler@38.46:38.53DECLARATION:
+0src\main\java\com\scm\config\SecurityConfig.java&. &(5Ÿ
+6com.scm.config.SecurityConfig.authenticationProvider()METHOD:
+0src\main\java\com\scm\config\SecurityConfig.java+% +(;"
+isFinalfalse"≥
+declarationStringù<mark class="annotation">@Bean</mark> <br><mark class="modifier">public </mark>DaoAuthenticationProvider <mark class="method">authenticationProvider</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"!
+typeDaoAuthenticationProvider*authenticationProvider2s
+/com.scm.config.SecurityConfig.passwordEncoder()CALL:
+0src\main\java\com\scm\config\SecurityConfig.java15 1(D2†
+\com.scm.config.SecurityConfig.authenticationProvider()?daoAuthenticationProvider@44.34:44.59CALL:
+0src\main\java\com\scm\config\SecurityConfig.java/ /(!2
+;com.scm.config.SecurityConfig?userDetailService@35.44:35.61CALL:
+0src\main\java\com\scm\config\SecurityConfig.java/8 /(I2†
+\com.scm.config.SecurityConfig.authenticationProvider()?daoAuthenticationProvider@44.34:44.59CALL:
+0src\main\java\com\scm\config\SecurityConfig.java1 1(!2†
+\com.scm.config.SecurityConfig.authenticationProvider()?daoAuthenticationProvider@44.34:44.59CALL:
+0src\main\java\com\scm\config\SecurityConfig.java3 3((2ß
+\com.scm.config.SecurityConfig.authenticationProvider()?daoAuthenticationProvider@44.34:44.59DECLARATION:
+0src\main\java\com\scm\config\SecurityConfig.java," ,(;2î
+Iorg.springframework.security.authentication.dao.DaoAuthenticationProviderRETURN_TYPE:
+0src\main\java\com\scm\config\SecurityConfig.java+ +($≤
+\com.scm.config.SecurityConfig.authenticationProvider()?daoAuthenticationProvider@44.34:44.59VARIABLE:
+0src\main\java\com\scm\config\SecurityConfig.java," ,(;"!
+typeDaoAuthenticationProvider"
+isFinalfalse"´
+declarationStringï<mark class="modifier"> </mark>DaoAuthenticationProvider <mark class="class-field">daoAuthenticationProvider</mark> = new DaoAuthenticationProvider()*daoAuthenticationProvider2ç
+Iorg.springframework.security.authentication.dao.DaoAuthenticationProviderTYPE:
+0src\main\java\com\scm\config\SecurityConfig.java, ,(!Ò$
+{com.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)METHOD:
+0src\main\java\com\scm\config\SecurityConfig.java8 8(2"
+isFinalfalse"ê
+declarationString˙<mark class="annotation">@Bean</mark> <br><mark class="modifier">public </mark>SecurityFilterChain <mark class="method">securityFilterChain</mark>(HttpSecurity httpSecurity)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>Exception"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeSecurityFilterChain*securityFilterChain2Õ
+àcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)!httpSecurityCALL:
+0src\main\java\com\scm\config\SecurityConfig.java> >(2÷
+ëcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)?authorize@62.43:62.52CALL:
+0src\main\java\com\scm\config\SecurityConfig.java@ @(2÷
+ëcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)?authorize@62.43:62.52CALL:
+0src\main\java\com\scm\config\SecurityConfig.javaA A(2Õ
+àcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)!httpSecurityCALL:
+0src\main\java\com\scm\config\SecurityConfig.javaG G(2÷
+ëcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)?formLogin@71.31:71.40CALL:
+0src\main\java\com\scm\config\SecurityConfig.javaI I(2Õ
+àcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)!httpSecurityCALL:
+0src\main\java\com\scm\config\SecurityConfig.javaj j(2Õ
+àcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)!httpSecurityCALL:
+0src\main\java\com\scm\config\SecurityConfig.javak k(2Ÿ
+îcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)?logoutForm@107.28:107.38CALL:
+0src\main\java\com\scm\config\SecurityConfig.javal l(2Ÿ
+îcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)?logoutForm@107.28:107.38CALL:
+0src\main\java\com\scm\config\SecurityConfig.javam m(2Õ
+àcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)!httpSecurityCALL:
+0src\main\java\com\scm\config\SecurityConfig.javaq q(2‘
+ècom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)?oauth@113.33:113.38CALL:
+0src\main\java\com\scm\config\SecurityConfig.javar r(2‘
+ècom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)?oauth@113.33:113.38CALL:
+0src\main\java\com\scm\config\SecurityConfig.javas s(2u
+1com.scm.config.SecurityConfig?handler@38.46:38.53CALL:
+0src\main\java\com\scm\config\SecurityConfig.javas! s((2Õ
+àcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)!httpSecurityCALL:
+0src\main\java\com\scm\config\SecurityConfig.javav v(2“
+àcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)!httpSecurity	PARAMETER:
+0src\main\java\com\scm\config\SecurityConfig.java8@ 8(L2›
+ëcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)?authorize@62.43:62.52DECLARATION:
+0src\main\java\com\scm\config\SecurityConfig.java>+ >(42›
+ëcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)?formLogin@71.31:71.40DECLARATION:
+0src\main\java\com\scm\config\SecurityConfig.javaG G((2‡
+îcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)?logoutForm@107.28:107.38DECLARATION:
+0src\main\java\com\scm\config\SecurityConfig.javak k(&2€
+ècom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)?oauth@113.33:113.38DECLARATION:
+0src\main\java\com\scm\config\SecurityConfig.javaq! q(&2
+4org.springframework.security.web.SecurityFilterChainRETURN_TYPE:
+0src\main\java\com\scm\config\SecurityConfig.java8 8(«
+àcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)!httpSecurity	PARAMETER:
+0src\main\java\com\scm\config\SecurityConfig.java8@ 8(L"
+typeHttpSecurity"
+isFinalfalse".
+declarationStringHttpSecurity httpSecurity*httpSecurity2å
+Horg.springframework.security.config.annotation.web.builders.HttpSecurityTYPE:
+0src\main\java\com\scm\config\SecurityConfig.java83 8(?®
+ëcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)?authorize@62.43:62.52VARIABLE:
+0src\main\java\com\scm\config\SecurityConfig.java>+ >(4"
+type"
+isFinalfalse"
+declarationString
+ authorize*	authorize2TYPE®
+ëcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)?formLogin@71.31:71.40VARIABLE:
+0src\main\java\com\scm\config\SecurityConfig.javaG G(("
+type"
+isFinalfalse"
+declarationString
+ formLogin*	formLogin2TYPE≠
+îcom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)?logoutForm@107.28:107.38VARIABLE:
+0src\main\java\com\scm\config\SecurityConfig.javak k(&"
+type"
+isFinalfalse" 
+declarationString logoutForm*
+logoutForm2TYPEû
+ècom.scm.config.SecurityConfig.securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)?oauth@113.33:113.38VARIABLE:
+0src\main\java\com\scm\config\SecurityConfig.javaq! q(&"
+type"
+isFinalfalse"
+declarationString oauth*oauth2TYPEö
+/com.scm.config.SecurityConfig.passwordEncoder()METHOD:
+0src\main\java\com\scm\config\SecurityConfig.java} }(*"
+isFinalfalse"¢
+declarationStringå<mark class="annotation">@Bean</mark> <br><mark class="modifier">public </mark>PasswordEncoder <mark class="method">passwordEncoder</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typePasswordEncoder*passwordEncoder2á
+<org.springframework.security.crypto.password.PasswordEncoderRETURN_TYPE:
+0src\main\java\com\scm\config\SecurityConfig.java} }(˙
+;com.scm.config.SecurityConfig?userDetailService@35.44:35.61VARIABLE:
+0src\main\java\com\scm\config\SecurityConfig.java#, #(="
+isFinalfalse"'
+typeSecurityCustomUserDetailService"Ö
+declarationStringÔ<mark class="modifier">private </mark>SecurityCustomUserDetailService <mark class="class-field">userDetailService</mark> = User.withDefaultPasswordEncoder()
+// .username("admin123")
+// .password("admin123")
+// .roles("ADMIN"<mark class="modifier">,</mark>"USER")
+// .build();
+// UserDetails user2  = User.withDefaultPasswordEncoder()
+// .username("user123")
+// .password("user123")
+// // .roles("USER")
+// .build();
+// var InMemoryUserDetailsManager = new InMemoryUserDetailsManager(user1,user2);
+// return InMemoryUserDetailsManager;
+// }
+@Autowired
+private SecurityCustomUserDetailService userDetailService;"
+isStaticfalse"
+accessprivate*userDetailService2y
+5com.scm.services.impl.SecurityCustomUserDetailServiceTYPE:
+0src\main\java\com\scm\config\SecurityConfig.java# #(+„
+1com.scm.config.SecurityConfig?handler@38.46:38.53VARIABLE:
+0src\main\java\com\scm\config\SecurityConfig.java&. &(5"
+isFinalfalse")
+type!OAuthAuthenticationSuccessHandler"Ö
+declarationStringp<mark class="modifier">private </mark>OAuthAuthenticationSuccessHandler <mark class="class-field">handler</mark>"
+isStaticfalse"
+accessprivate*handler2t
+0com.scm.config.OAuthAuthenticationSuccessHandlerTYPE:
+0src\main\java\com\scm\config\SecurityConfig.java& &(-

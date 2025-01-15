@@ -1,0 +1,67 @@
+
++src\main\java\com\scm\config\AppConfig.java·
+com.scm.config.AppConfigCLASS5
++src\main\java\com\scm\config\AppConfig.java
+ 
+("
+packagecom.scm.config"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"›
+declarationString…<mark class="annotation">@Configuration</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>AppConfig"
+accesspublic*	AppConfig2k
+%com.scm.config.AppConfig.cloudinary()DECLARATION5
++src\main\java\com\scm\config\AppConfig.java ( 2t
+.com.scm.config.AppConfig?cloudName@14.19:14.28DECLARATION5
++src\main\java\com\scm\config\AppConfig.java (2q
++com.scm.config.AppConfig?apiKey@17.19:17.25DECLARATION5
++src\main\java\com\scm\config\AppConfig.java (2t
+.com.scm.config.AppConfig?apiSecret@20.19:20.28DECLARATION5
++src\main\java\com\scm\config\AppConfig.java (˜
+%com.scm.config.AppConfig.cloudinary()METHOD5
++src\main\java\com\scm\config\AppConfig.java ( "
+isFinalfalse"˜
+declarationString‚<mark class="annotation">@Bean</mark> <br><mark class="modifier">public </mark>Cloudinary <mark class="method">cloudinary</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+type
+Cloudinary*
+cloudinary2m
+.com.scm.config.AppConfig?cloudName@14.19:14.28CALL5
++src\main\java\com\scm\config\AppConfig.java (#2j
++com.scm.config.AppConfig?apiKey@17.19:17.25CALL5
++src\main\java\com\scm\config\AppConfig.java (2m
+.com.scm.config.AppConfig?apiSecret@20.19:20.28CALL5
++src\main\java\com\scm\config\AppConfig.java   (#2_
+com.cloudinary.CloudinaryRETURN_TYPE5
++src\main\java\com\scm\config\AppConfig.java (ƒ
+.com.scm.config.AppConfig?cloudName@14.19:14.28VARIABLE5
++src\main\java\com\scm\config\AppConfig.java ("
+isFinalfalse"
+typeString"l
+declarationStringW<mark class="modifier">private </mark>String <mark class="class-field">cloudName</mark>"
+isStaticfalse"
+accessprivate*	cloudName2O
+java.lang.StringTYPE5
++src\main\java\com\scm\config\AppConfig.java (ú
++com.scm.config.AppConfig?apiKey@17.19:17.25VARIABLE5
++src\main\java\com\scm\config\AppConfig.java ("
+isFinalfalse"
+typeString"i
+declarationStringT<mark class="modifier">private </mark>String <mark class="class-field">apiKey</mark>"
+isStaticfalse"
+accessprivate*apiKey2O
+java.lang.StringTYPE5
++src\main\java\com\scm\config\AppConfig.java (ƒ
+.com.scm.config.AppConfig?apiSecret@20.19:20.28VARIABLE5
++src\main\java\com\scm\config\AppConfig.java ("
+isFinalfalse"
+typeString"l
+declarationStringW<mark class="modifier">private </mark>String <mark class="class-field">apiSecret</mark>"
+isStaticfalse"
+accessprivate*	apiSecret2O
+java.lang.StringTYPE5
++src\main\java\com\scm\config\AppConfig.java (

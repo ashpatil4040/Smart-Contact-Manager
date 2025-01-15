@@ -1,0 +1,327 @@
+
+(src\main\java\com\scm\entities\User.java”
+com.scm.entities.UserCLASS2
+(src\main\java\com\scm\entities\User.java$ $("
+packagecom.scm.entities"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ö
+declarationStringÔ<mark class="annotation">@Entity(name = "user")</mark> <br><mark class="annotation">@Table(name = "users")</mark> <br><mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="annotation">@NoArgsConstructor</mark> <br><mark class="annotation">@Builder</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>User<mark class="modifier"><br>implements </mark>UserDetails"
+accesspublic*User2i
+&com.scm.entities.User.getAuthorities()DECLARATION2
+(src\main\java\com\scm\entities\User.javaN2 N(@2f
+#com.scm.entities.User.getUsername()DECLARATION2
+(src\main\java\com\scm\entities\User.javaX X(2n
++com.scm.entities.User.isAccountNonExpired()DECLARATION2
+(src\main\java\com\scm\entities\User.java^ ^(&2m
+*com.scm.entities.User.isAccountNonLocked()DECLARATION2
+(src\main\java\com\scm\entities\User.javac c(%2r
+/com.scm.entities.User.isCredentialsNonExpired()DECLARATION2
+(src\main\java\com\scm\entities\User.javah h(*2d
+!com.scm.entities.User.isEnabled()DECLARATION2
+(src\main\java\com\scm\entities\User.javam m(2f
+#com.scm.entities.User.getPassword()DECLARATION2
+(src\main\java\com\scm\entities\User.javar r(2k
+(com.scm.entities.User?userId@39.19:39.25DECLARATION2
+(src\main\java\com\scm\entities\User.java' '(2i
+&com.scm.entities.User?name@42.19:42.23DECLARATION2
+(src\main\java\com\scm\entities\User.java* *(2j
+'com.scm.entities.User?email@45.19:45.24DECLARATION2
+(src\main\java\com\scm\entities\User.java- -(2m
+*com.scm.entities.User?password@48.19:48.27DECLARATION2
+(src\main\java\com\scm\entities\User.java0 0(2j
+'com.scm.entities.User?about@51.19:51.24DECLARATION2
+(src\main\java\com\scm\entities\User.java3 3(2o
+,com.scm.entities.User?profilePic@54.19:54.29DECLARATION2
+(src\main\java\com\scm\entities\User.java6 6(2p
+-com.scm.entities.User?phoneNumber@56.19:56.30DECLARATION2
+(src\main\java\com\scm\entities\User.java8 8(2l
+)com.scm.entities.User?enabled@60.20:60.27DECLARATION2
+(src\main\java\com\scm\entities\User.java< <(2r
+/com.scm.entities.User?emailVerified@62.20:62.33DECLARATION2
+(src\main\java\com\scm\entities\User.java> >(!2r
+/com.scm.entities.User?phoneVerified@63.20:63.33DECLARATION2
+(src\main\java\com\scm\entities\User.java? ?(!2m
+*com.scm.entities.User?provider@67.22:67.30DECLARATION2
+(src\main\java\com\scm\entities\User.javaC C(2s
+0com.scm.entities.User?providerUserId@68.19:68.33DECLARATION2
+(src\main\java\com\scm\entities\User.javaD D(!2m
+*com.scm.entities.User?contacts@71.26:71.34DECLARATION2
+(src\main\java\com\scm\entities\User.javaG G("2m
+*com.scm.entities.User?roleList@74.24:74.32DECLARATION2
+(src\main\java\com\scm\entities\User.javaJ J( 2w
+9org.springframework.security.core.userdetails.UserDetailsEXTEND2
+(src\main\java\com\scm\entities\User.java$ $((≥
+&com.scm.entities.User.getAuthorities()METHOD2
+(src\main\java\com\scm\entities\User.javaN2 N(@"
+isFinalfalse"¬
+declarationString¨<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Collection&lt;? extends GrantedAuthority&gt; <mark class="method">getAuthorities</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse".
+type&Collection<? extends GrantedAuthority>*getAuthorities2à
+Ljava.util.stream.Stream.collect(java.util.stream.Collector<? super T, A, R>)CALL2
+(src\main\java\com\scm\entities\User.javaQq Q(x2å
+Pjava.util.stream.Stream.map(java.util.function.Function<? super T, ? extends R>)CALL2
+(src\main\java\com\scm\entities\User.javaQC Q(F2Y
+java.util.Collection.stream()CALL2
+(src\main\java\com\scm\entities\User.javaQ: Q(@2b
+$java.util.stream.Collectors.toList()CALL4
+(src\main\java\com\scm\entities\User.javaQÑ Q(ä2f
+*com.scm.entities.User?roleList@74.24:74.32CALL2
+(src\main\java\com\scm\entities\User.javaQ1 Q(92s
+7com.scm.entities.User.getAuthorities()?role@81.71:81.75CALL2
+(src\main\java\com\scm\entities\User.javaQj Q(n2t
+8com.scm.entities.User.getAuthorities()?roles@81.42:81.47CALL2
+(src\main\java\com\scm\entities\User.javaS S(2{
+8com.scm.entities.User.getAuthorities()?roles@81.42:81.47DECLARATION2
+(src\main\java\com\scm\entities\User.javaQ* Q(/2z
+7com.scm.entities.User.getAuthorities()?role@81.71:81.75DECLARATION2
+(src\main\java\com\scm\entities\User.javaQG Q(K2W
+java.util.CollectionRETURN_TYPE2
+(src\main\java\com\scm\entities\User.javaN N(Ø
+
+8com.scm.entities.User.getAuthorities()?roles@81.42:81.47VARIABLE2
+(src\main\java\com\scm\entities\User.javaQ* Q(/"*
+type"Collection<SimpleGrantedAuthority>"
+isFinalfalse"›
+declarationString«<mark class="modifier"> </mark>Collection<SimpleGrantedAuthority> <mark class="class-field">roles</mark> = roleList.stream().map(role -> new SimpleGrantedAuthority(role)).collect(Collectors.toList())*roles2P
+java.util.CollectionTYPE2
+(src\main\java\com\scm\entities\User.javaQ Q(2á
+Borg.springframework.security.core.authority.SimpleGrantedAuthorityTYPE_ARGUMENT2
+(src\main\java\com\scm\entities\User.javaQ Q((2à
+Ljava.util.stream.Stream.collect(java.util.stream.Collector<? super T, A, R>)CALL2
+(src\main\java\com\scm\entities\User.javaQq Q(x2å
+Pjava.util.stream.Stream.map(java.util.function.Function<? super T, ? extends R>)CALL2
+(src\main\java\com\scm\entities\User.javaQC Q(F2Y
+java.util.Collection.stream()CALL2
+(src\main\java\com\scm\entities\User.javaQ: Q(@2b
+$java.util.stream.Collectors.toList()CALL4
+(src\main\java\com\scm\entities\User.javaQÑ Q(ä2f
+*com.scm.entities.User?roleList@74.24:74.32CALL2
+(src\main\java\com\scm\entities\User.javaQ1 Q(92s
+7com.scm.entities.User.getAuthorities()?role@81.71:81.75CALL2
+(src\main\java\com\scm\entities\User.javaQj Q(nª
+7com.scm.entities.User.getAuthorities()?role@81.71:81.75VARIABLE2
+(src\main\java\com\scm\entities\User.javaQG Q(K"
+type"
+isFinalfalse"
+declarationString role*role2TYPE†
+#com.scm.entities.User.getUsername()METHOD2
+(src\main\java\com\scm\entities\User.javaX X("
+isFinalfalse"ô
+declarationStringÉ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">getUsername</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getUsername2c
+'com.scm.entities.User?email@45.19:45.24CALL2
+(src\main\java\com\scm\entities\User.javaZ Z(2S
+java.lang.StringRETURN_TYPE2
+(src\main\java\com\scm\entities\User.javaX X(Í
++com.scm.entities.User.isAccountNonExpired()METHOD2
+(src\main\java\com\scm\entities\User.java^ ^(&"
+isFinalfalse"¿
+declarationString™<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isAccountNonExpired</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isAccountNonExpired2J
+booleanRETURN_TYPE2
+(src\main\java\com\scm\entities\User.java^ ^(Á
+*com.scm.entities.User.isAccountNonLocked()METHOD2
+(src\main\java\com\scm\entities\User.javac c(%"
+isFinalfalse"ø
+declarationString©<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isAccountNonLocked</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isAccountNonLocked2J
+booleanRETURN_TYPE2
+(src\main\java\com\scm\entities\User.javac c(ˆ
+/com.scm.entities.User.isCredentialsNonExpired()METHOD2
+(src\main\java\com\scm\entities\User.javah h(*"
+isFinalfalse"ƒ
+declarationStringÆ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isCredentialsNonExpired</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isCredentialsNonExpired2J
+booleanRETURN_TYPE2
+(src\main\java\com\scm\entities\User.javah h(≥
+!com.scm.entities.User.isEnabled()METHOD2
+(src\main\java\com\scm\entities\User.javam m("
+isFinalfalse"∂
+declarationString†<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isEnabled</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*	isEnabled2e
+)com.scm.entities.User?enabled@60.20:60.27CALL2
+(src\main\java\com\scm\entities\User.javan n(2J
+booleanRETURN_TYPE2
+(src\main\java\com\scm\entities\User.javam m(£
+#com.scm.entities.User.getPassword()METHOD2
+(src\main\java\com\scm\entities\User.javar r("
+isFinalfalse"ô
+declarationStringÉ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">getPassword</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getPassword2f
+*com.scm.entities.User?password@48.19:48.27CALL2
+(src\main\java\com\scm\entities\User.javas s(2S
+java.lang.StringRETURN_TYPE2
+(src\main\java\com\scm\entities\User.javar r(Ò
+(com.scm.entities.User?userId@39.19:39.25VARIABLE2
+(src\main\java\com\scm\entities\User.java' '("
+isFinalfalse"
+typeString"i
+declarationStringT<mark class="modifier">private </mark>String <mark class="class-field">userId</mark>"
+isStaticfalse"
+accessprivate*userId2L
+java.lang.StringTYPE2
+(src\main\java\com\scm\entities\User.java' '(‡
+&com.scm.entities.User?name@42.19:42.23VARIABLE2
+(src\main\java\com\scm\entities\User.java* *("
+isFinalfalse"
+typeString"€
+declarationString≈<mark class="modifier">private </mark>String <mark class="class-field">name</mark> = "user_name"<mark class="modifier">,</mark> nullable = <mark class="modifier">false</mark>)
+private String name;"
+isStaticfalse"
+accessprivate*name2L
+java.lang.StringTYPE2
+(src\main\java\com\scm\entities\User.java* *(ø
+'com.scm.entities.User?email@45.19:45.24VARIABLE2
+(src\main\java\com\scm\entities\User.java- -("
+isFinalfalse"
+typeString"∏
+declarationString¢<mark class="modifier">private </mark>String <mark class="class-field">email</mark> = true, nullable = <mark class="modifier">false</mark>)
+private String email;"
+isStaticfalse"
+accessprivate*email2L
+java.lang.StringTYPE2
+(src\main\java\com\scm\entities\User.java- -(ß
+*com.scm.entities.User?password@48.19:48.27VARIABLE2
+(src\main\java\com\scm\entities\User.java0 0("
+isFinalfalse"
+typeString"ö
+declarationStringÑ<mark class="modifier">private </mark>String <mark class="class-field">password</mark> = AccessLevel.NONE)
+private String password;"
+isStaticfalse"
+accessprivate*password2L
+java.lang.StringTYPE2
+(src\main\java\com\scm\entities\User.java0 0(è
+'com.scm.entities.User?about@51.19:51.24VARIABLE2
+(src\main\java\com\scm\entities\User.java3 3("
+isFinalfalse"
+typeString"à
+declarationStrings<mark class="modifier">private </mark>String <mark class="class-field">about</mark> = 64000)
+private String about;"
+isStaticfalse"
+accessprivate*about2L
+java.lang.StringTYPE2
+(src\main\java\com\scm\entities\User.java3 3(£
+,com.scm.entities.User?profilePic@54.19:54.29VARIABLE2
+(src\main\java\com\scm\entities\User.java6 6("
+isFinalfalse"
+typeString"í
+declarationString}<mark class="modifier">private </mark>String <mark class="class-field">profilePic</mark> = 64000)
+private String profilePic;"
+isStaticfalse"
+accessprivate*
+profilePic2L
+java.lang.StringTYPE2
+(src\main\java\com\scm\entities\User.java6 6(Ä
+-com.scm.entities.User?phoneNumber@56.19:56.30VARIABLE2
+(src\main\java\com\scm\entities\User.java8 8("
+isFinalfalse"
+typeString"n
+declarationStringY<mark class="modifier">private </mark>String <mark class="class-field">phoneNumber</mark>"
+isStaticfalse"
+accessprivate*phoneNumber2L
+java.lang.StringTYPE2
+(src\main\java\com\scm\entities\User.java8 8(‡
+)com.scm.entities.User?enabled@60.20:60.27VARIABLE2
+(src\main\java\com\scm\entities\User.java< <("
+isFinalfalse"
+typeboolean"›
+declarationString«<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">enabled</mark> = AccessLevel.NONE)
+private <mark class="modifier">boolean</mark> enabled = true;"
+isStaticfalse"
+accessprivate*enabled2C
+booleanTYPE2
+(src\main\java\com\scm\entities\User.java< <(∆
+/com.scm.entities.User?emailVerified@62.20:62.33VARIABLE2
+(src\main\java\com\scm\entities\User.java> >(!"
+isFinalfalse"
+typeboolean"∑
+declarationString°<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">emailVerified</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*emailVerified2C
+booleanTYPE2
+(src\main\java\com\scm\entities\User.java> >(∆
+/com.scm.entities.User?phoneVerified@63.20:63.33VARIABLE2
+(src\main\java\com\scm\entities\User.java? ?(!"
+isFinalfalse"
+typeboolean"∑
+declarationString°<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">phoneVerified</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*phoneVerified2C
+booleanTYPE2
+(src\main\java\com\scm\entities\User.java? ?( 
+*com.scm.entities.User?provider@67.22:67.30VARIABLE2
+(src\main\java\com\scm\entities\User.javaC C("
+isFinalfalse"
+type	Providers"∞
+declarationStringö<mark class="modifier">private </mark>Providers <mark class="class-field">provider</mark> = EnumType.STRING)
+private Providers provider = Providers.SELF;"
+isStaticfalse"
+accessprivate*provider2V
+com.scm.entities.ProvidersTYPE2
+(src\main\java\com\scm\entities\User.javaC C(â
+0com.scm.entities.User?providerUserId@68.19:68.33VARIABLE2
+(src\main\java\com\scm\entities\User.javaD D(!"
+isFinalfalse"
+typeString"q
+declarationString\<mark class="modifier">private </mark>String <mark class="class-field">providerUserId</mark>"
+isStaticfalse"
+accessprivate*providerUserId2L
+java.lang.StringTYPE2
+(src\main\java\com\scm\entities\User.javaD D(Á
+*com.scm.entities.User?contacts@71.26:71.34VARIABLE2
+(src\main\java\com\scm\entities\User.javaG G(""
+isFinalfalse"
+typeList<Contact>"ô
+declarationStringÉ<mark class="modifier">private </mark>List<Contact> <mark class="class-field">contacts</mark> = "user"<mark class="modifier">,</mark> cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
+private List<Contact> contacts = new ArrayList<>();"
+isStaticfalse"
+accessprivate*contacts2J
+java.util.ListTYPE2
+(src\main\java\com\scm\entities\User.javaG G(2]
+com.scm.entities.ContactTYPE_ARGUMENT2
+(src\main\java\com\scm\entities\User.javaG G(2[
+java.util.ArrayList.ArrayList()CALL2
+(src\main\java\com\scm\entities\User.javaG' G(2˛
+*com.scm.entities.User?roleList@74.24:74.32VARIABLE2
+(src\main\java\com\scm\entities\User.javaJ J( "
+isFinalfalse"
+typeList<String>"π
+declarationString£<mark class="modifier">private </mark>List<String> <mark class="class-field">roleList</mark> = FetchType.EAGER)
+private List<String> roleList = new ArrayList<>();"
+isStaticfalse"
+accessprivate*roleList2J
+java.util.ListTYPE2
+(src\main\java\com\scm\entities\User.javaJ J(2U
+java.lang.StringTYPE_ARGUMENT2
+(src\main\java\com\scm\entities\User.javaJ J(2[
+java.util.ArrayList.ArrayList()CALL2
+(src\main\java\com\scm\entities\User.javaJ% J(0

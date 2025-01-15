@@ -1,0 +1,211 @@
+
+2src\main\java\com\scm\services\ContactService.javaÿ
+
+com.scm.services.ContactServiceTRAIT<
+2src\main\java\com\scm\services\ContactService.java ("
+packagecom.scm.services"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"p
+declarationString[<mark class="modifier">public </mark><mark class="modifier">interface </mark>ContactService"
+accesspublic*ContactService2ã
+>com.scm.services.ContactService.save(com.scm.entities.Contact)DECLARATION<
+2src\main\java\com\scm\services\ContactService.java
+ 
+(2ç
+@com.scm.services.ContactService.update(com.scm.entities.Contact)DECLARATION<
+2src\main\java\com\scm\services\ContactService.java (2u
+(com.scm.services.ContactService.getAll()DECLARATION<
+2src\main\java\com\scm\services\ContactService.java (2Ü
+9com.scm.services.ContactService.getById(java.lang.String)DECLARATION<
+2src\main\java\com\scm\services\ContactService.java (2Ö
+8com.scm.services.ContactService.delete(java.lang.String)DECLARATION<
+2src\main\java\com\scm\services\ContactService.java	 (2Œ
+Äcom.scm.services.ContactService.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)DECLARATION<
+2src\main\java\com\scm\services\ContactService.java (2ä
+=com.scm.services.ContactService.getByUserId(java.lang.String)DECLARATION<
+2src\main\java\com\scm\services\ContactService.java (‹
+>com.scm.services.ContactService.save(com.scm.entities.Contact)METHOD<
+2src\main\java\com\scm\services\ContactService.java
+ 
+("
+isFinalfalse"m
+declarationStringX<mark class="modifier"> </mark>Contact <mark class="method">save</mark>(Contact contact)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeContact*save2ë
+Fcom.scm.services.ContactService.save(com.scm.entities.Contact)!contact	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java
+ 
+(!2e
+com.scm.entities.ContactRETURN_TYPE<
+2src\main\java\com\scm\services\ContactService.java
+ 
+(√
+Fcom.scm.services.ContactService.save(com.scm.entities.Contact)!contact	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java
+ 
+(!"
+typeContact"
+isFinalfalse"$
+declarationStringContact contact*contact2^
+com.scm.entities.ContactTYPE<
+2src\main\java\com\scm\services\ContactService.java
+ 
+(‰
+@com.scm.services.ContactService.update(com.scm.entities.Contact)METHOD<
+2src\main\java\com\scm\services\ContactService.java ("
+isFinalfalse"o
+declarationStringZ<mark class="modifier"> </mark>Contact <mark class="method">update</mark>(Contact contact)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeContact*update2ì
+Hcom.scm.services.ContactService.update(com.scm.entities.Contact)!contact	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java ("2e
+com.scm.entities.ContactRETURN_TYPE<
+2src\main\java\com\scm\services\ContactService.java (≈
+Hcom.scm.services.ContactService.update(com.scm.entities.Contact)!contact	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java (""
+typeContact"
+isFinalfalse"$
+declarationStringContact contact*contact2^
+com.scm.entities.ContactTYPE<
+2src\main\java\com\scm\services\ContactService.java (ü
+(com.scm.services.ContactService.getAll()METHOD<
+2src\main\java\com\scm\services\ContactService.java ("
+isFinalfalse"l
+declarationStringW<mark class="modifier"> </mark>List&lt;Contact&gt; <mark class="method">getAll</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeList<Contact>*getAll2[
+java.util.ListRETURN_TYPE<
+2src\main\java\com\scm\services\ContactService.java (2n
+com.scm.entities.ContactRETURN_TYPE_ARGUMENT<
+2src\main\java\com\scm\services\ContactService.java	 (Õ
+9com.scm.services.ContactService.getById(java.lang.String)METHOD<
+2src\main\java\com\scm\services\ContactService.java ("
+isFinalfalse"j
+declarationStringU<mark class="modifier"> </mark>Contact <mark class="method">getById</mark>(String id)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeContact*getById2á
+<com.scm.services.ContactService.getById(java.lang.String)!id	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java (2e
+com.scm.entities.ContactRETURN_TYPE<
+2src\main\java\com\scm\services\ContactService.java (•
+<com.scm.services.ContactService.getById(java.lang.String)!id	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java ("
+typeString"
+isFinalfalse"
+declarationString	String id*id2V
+java.lang.StringTYPE<
+2src\main\java\com\scm\services\ContactService.java (Œ
+8com.scm.services.ContactService.delete(java.lang.String)METHOD<
+2src\main\java\com\scm\services\ContactService.java	 ("
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">delete</mark>(String id)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*delete2Ü
+;com.scm.services.ContactService.delete(java.lang.String)!id	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java (2Q
+voidRETURN_TYPE<
+2src\main\java\com\scm\services\ContactService.java (§
+;com.scm.services.ContactService.delete(java.lang.String)!id	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java ("
+typeString"
+isFinalfalse"
+declarationString	String id*id2V
+java.lang.StringTYPE<
+2src\main\java\com\scm\services\ContactService.java (Ò
+Äcom.scm.services.ContactService.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)METHOD<
+2src\main\java\com\scm\services\ContactService.java ("
+isFinalfalse"Æ
+declarationStringò<mark class="modifier"> </mark>List&lt;Contact&gt; <mark class="method">search</mark>(String name<mark class="modifier"><mark class="modifier">,</mark></mark> String email<mark class="modifier"><mark class="modifier">,</mark></mark> String phoneNumber<mark class="modifier"><mark class="modifier">,</mark></mark> String address<mark class="modifier"><mark class="modifier">,</mark></mark> String description)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeList<Contact>*search2—
+Öcom.scm.services.ContactService.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!name	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java  ($2“
+Ücom.scm.services.ContactService.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!email	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java- (22ÿ
+åcom.scm.services.ContactService.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!phoneNumber	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java; (F2‘
+àcom.scm.services.ContactService.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!address	PARAMETER<
+2src\main\java\com\scm\services\ContactService.javaO (V2ÿ
+åcom.scm.services.ContactService.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!description	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java_ (j2[
+java.util.ListRETURN_TYPE<
+2src\main\java\com\scm\services\ContactService.java (2n
+com.scm.entities.ContactRETURN_TYPE_ARGUMENT<
+2src\main\java\com\scm\services\ContactService.java	 (Û
+Öcom.scm.services.ContactService.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!name	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java  ($"
+typeString"
+isFinalfalse" 
+declarationStringString name*name2V
+java.lang.StringTYPE<
+2src\main\java\com\scm\services\ContactService.java (ˆ
+Ücom.scm.services.ContactService.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!email	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java- (2"
+typeString"
+isFinalfalse"!
+declarationStringString email*email2V
+java.lang.StringTYPE<
+2src\main\java\com\scm\services\ContactService.java& (,à
+åcom.scm.services.ContactService.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!phoneNumber	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java; (F"
+typeString"
+isFinalfalse"'
+declarationStringString phoneNumber*phoneNumber2V
+java.lang.StringTYPE<
+2src\main\java\com\scm\services\ContactService.java4 (:¸
+àcom.scm.services.ContactService.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!address	PARAMETER<
+2src\main\java\com\scm\services\ContactService.javaO (V"
+typeString"
+isFinalfalse"#
+declarationStringString address*address2V
+java.lang.StringTYPE<
+2src\main\java\com\scm\services\ContactService.javaH (Nà
+åcom.scm.services.ContactService.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!description	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java_ (j"
+typeString"
+isFinalfalse"'
+declarationStringString description*description2V
+java.lang.StringTYPE<
+2src\main\java\com\scm\services\ContactService.javaX (^›
+=com.scm.services.ContactService.getByUserId(java.lang.String)METHOD<
+2src\main\java\com\scm\services\ContactService.java ("
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark>List&lt;Contact&gt; <mark class="method">getByUserId</mark>(String userId)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeList<Contact>*getByUserId2è
+Dcom.scm.services.ContactService.getByUserId(java.lang.String)!userId	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java% (+2[
+java.util.ListRETURN_TYPE<
+2src\main\java\com\scm\services\ContactService.java (2n
+com.scm.entities.ContactRETURN_TYPE_ARGUMENT<
+2src\main\java\com\scm\services\ContactService.java	 (µ
+Dcom.scm.services.ContactService.getByUserId(java.lang.String)!userId	PARAMETER<
+2src\main\java\com\scm\services\ContactService.java% (+"
+typeString"
+isFinalfalse""
+declarationStringString userId*userId2V
+java.lang.StringTYPE<
+2src\main\java\com\scm\services\ContactService.java ($

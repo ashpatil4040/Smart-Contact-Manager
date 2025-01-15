@@ -1,0 +1,33 @@
+
+)src\main\java\com\scm\helper\Message.javaÅ
+com.scm.helper.MessageCLASS3
+)src\main\java\com\scm\helper\Message.java ("
+packagecom.scm.helper"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"⁄
+declarationStringƒ<mark class="annotation">@Builder</mark> <br><mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@NoArgsConstructor</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Message"
+accesspublic*Message2n
+*com.scm.helper.Message?content@15.19:15.26DECLARATION3
+)src\main\java\com\scm\helper\Message.java (2k
+'com.scm.helper.Message?type@18.24:18.28DECLARATION3
+)src\main\java\com\scm\helper\Message.java (˜
+*com.scm.helper.Message?content@15.19:15.26VARIABLE3
+)src\main\java\com\scm\helper\Message.java ("
+isFinalfalse"
+typeString"j
+declarationStringU<mark class="modifier">private </mark>String <mark class="class-field">content</mark>"
+isStaticfalse"
+accessprivate*content2M
+java.lang.StringTYPE3
+)src\main\java\com\scm\helper\Message.java (ó
+'com.scm.helper.Message?type@18.24:18.28VARIABLE3
+)src\main\java\com\scm\helper\Message.java ("
+isFinalfalse"
+typeMessageType"Ä
+declarationStringk<mark class="modifier">private </mark>MessageType <mark class="class-field">type</mark> = MessageType.blue;"
+isStaticfalse"
+accessprivate*type2W
+com.scm.helper.MessageTypeTYPE3
+)src\main\java\com\scm\helper\Message.java (

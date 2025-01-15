@@ -1,0 +1,323 @@
+
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java±
+
+0com.scm.config.OAuthAuthenticationSuccessHandlerCLASSM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java (."
+packagecom.scm.config"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¯
+declarationString‚<mark class="annotation">@Component</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>OAuthAuthenticationSuccessHandler<mark class="modifier"><br>implements </mark>AuthenticationSuccessHandler"
+accesspublic*!OAuthAuthenticationSuccessHandler2¨
+Õcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)DECLARATIONM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java" "('2°
+Ccom.scm.config.OAuthAuthenticationSuccessHandler?logger@28.11:28.17DECLARATIONM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java (2£
+Ecom.scm.config.OAuthAuthenticationSuccessHandler?userRepo@31.21:31.29DECLARATIONM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java (2•
+Lorg.springframework.security.web.authentication.AuthenticationSuccessHandlerEXTENDM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java: (V ™
+Õcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)METHODM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java" "('"
+isFinalfalse"≠
+declarationStringó<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onAuthenticationSuccess</mark>(HttpServletRequest request<mark class="modifier"><mark class="modifier">,</mark></mark> HttpServletResponse response<mark class="modifier"><mark class="modifier">,</mark></mark> Authentication authentication)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IOException<mark class="modifier"><mark class="modifier">,</mark></mark> ServletException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onAuthenticationSuccess2p
+java.util.UUID.toString()CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java6) 6(12r
+java.util.UUID.randomUUID()CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java6 6(&2k
+java.util.List.of(E)CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java7 7( 2ä
+3java.lang.String.equalsIgnoreCase(java.lang.String)CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java<* <(:2ä
+3java.lang.String.equalsIgnoreCase(java.lang.String)CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaI/ I(?2s
+com.scm.entities.User.User()CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java5 5(2ö
+Ccom.scm.config.OAuthAuthenticationSuccessHandler?logger@28.11:28.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java% %(2¥
+‹com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)!authenticationCALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java)B )(P2À
+Ûcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauth2AuthenticationToken@41.11:41.36CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java+1 +(J2ö
+Ccom.scm.config.OAuthAuthenticationSuccessHandler?logger@28.11:28.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java-	 -(2–
+¯com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?authorizedClientRegistrationId@43.16:43.46CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java- -(32¥
+‹com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)!authenticationCALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java/* /(82ª
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java1 1(2ö
+Ccom.scm.config.OAuthAuthenticationSuccessHandler?logger@28.11:28.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java2 2(2≥
+€com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?k@49.43:49.44CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java2 2(2≥
+€com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?v@49.45:49.46CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java2$ 2(%2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java6 6(2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java7 7(2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java8 8(2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java9 9(2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java: :(2–
+¯com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?authorizedClientRegistrationId@43.16:43.46CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java< <()2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java@
+ @(2ª
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java@ @( 2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaA
+ A(2ª
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaA A(&2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaB
+ B(2ª
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaB B(!2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaC
+ C(2ª
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaC! C(*2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaD
+ D(2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaE
+ E(2–
+¯com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?authorizedClientRegistrationId@43.16:43.46CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaI I(.2ª
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaM M("2ª
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaMC M(L2ª
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaMp M(y2ª
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaO O($2ª
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaP P(!2ª
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaQ" Q(+2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaS	 S(2∑
+ﬂcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?email@77.17:77.22CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaS S(2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaT	 T(2π
+·com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?picture@79.17:79.24CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaT T(#2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaU	 U(2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?name@80.17:80.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaU U(2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaV	 V(2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaW	 W(2¿
+Ëcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?providerUserId@81.17:81.31CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaW  W(.2∂
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaX	 X(2û
+Ecom.scm.config.OAuthAuthenticationSuccessHandler?userRepo@31.21:31.29CALLO
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaá á(2∏
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLO
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaá) á(-2ª
+·com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user2@135.13:135.18CALLO
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaâ â(2û
+Ecom.scm.config.OAuthAuthenticationSuccessHandler?userRepo@31.21:31.29CALLO
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaä ä(2∏
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLO
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaä ä(2ú
+Ccom.scm.config.OAuthAuthenticationSuccessHandler?logger@28.11:28.17CALLO
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaã ã(2∏
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLO
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaã( ã(,2Ø
+’com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)!requestCALLO
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaé4 é(;2∞
+÷com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)!responseCALLO
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaé= é(E2≤
+’com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)!request	PARAMETERM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java"; "(B2≥
+÷com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)!response	PARAMETERM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java"X "(`2π
+‹com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)!authentication	PARAMETERM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java# #()2“
+Ûcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauth2AuthenticationToken@41.11:41.36DECLARATIONM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java) )($2◊
+¯com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?authorizedClientRegistrationId@43.16:43.46DECLARATIONM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java+ +(.2¬
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21DECLARATIONM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java/ /(2Ω
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17DECLARATIONM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java5 5(2æ
+ﬂcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?email@77.17:77.22DECLARATIONM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaM M(2¿
+·com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?picture@79.17:79.24DECLARATIONM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaO O(2Ω
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?name@80.17:80.21DECLARATIONM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaP P(2«
+Ëcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?providerUserId@81.17:81.31DECLARATIONM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaQ Q(2¬
+·com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user2@135.13:135.18DECLARATIONO
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaá á(2∫
+€com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?k@49.43:49.44DECLARATIONM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java1+ 1(,2∫
+€com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?v@49.45:49.46DECLARATIONM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java1- 1(.2b
+voidRETURN_TYPEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java" "(ê
+Ûcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauth2AuthenticationToken@41.11:41.36VARIABLEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java) )($"
+typevar"
+isFinalfalse"†
+declarationStringä<mark class="modifier"> </mark>var <mark class="class-field">oauth2AuthenticationToken</mark> = (OAuth2AuthenticationToken) authentication*oauth2AuthenticationToken2™
+Sorg.springframework.security.oauth2.client.authentication.OAuth2AuthenticationTokenTYPEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java) )(
+2¥
+‹com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)!authenticationCALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java)B )(Pã
+¯com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?authorizedClientRegistrationId@43.16:43.46VARIABLEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java+ +(."
+typeString"
+isFinalfalse"ª
+declarationString•<mark class="modifier"> </mark>String <mark class="class-field">authorizedClientRegistrationId</mark> = oauth2AuthenticationToken.getAuthorizedClientRegistrationId()*authorizedClientRegistrationId2g
+java.lang.StringTYPEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java+	 +(2À
+Ûcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauth2AuthenticationToken@41.11:41.36CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java+1 +(J”
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21VARIABLEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java/ /("
+typevar"
+isFinalfalse"ó
+declarationStringÅ<mark class="modifier"> </mark>var <mark class="class-field">oauthUser</mark> = (DefaultOAuth2User) authentication.getPrincipal()*	oauthUser2ñ
+?org.springframework.security.oauth2.core.user.DefaultOAuth2UserTYPEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java/ /(2¥
+‹com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)!authenticationCALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java/* /(8∞
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17VARIABLEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java5 5("
+typeUser"
+isFinalfalse"k
+declarationStringV<mark class="modifier"> </mark>User <mark class="class-field">user</mark> = new User()*user2l
+com.scm.entities.UserTYPEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java5 5(2s
+com.scm.entities.User.User()CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java5 5(ù
+ﬂcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?email@77.17:77.22VARIABLEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaM M("
+typeString"
+isFinalfalse"ì
+declarationString˝<mark class="modifier"> </mark>String <mark class="class-field">email</mark> = oauthUser.getAttribute("email") != <mark class="modifier">null</mark> ? oauthUser.getAttribute("email").toString() : oauthUser.getAttribute("login").toString() + "@gmail.com"*email2g
+java.lang.StringTYPEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaM
+ M(2ª
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaM M("2ª
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaMC M(L2ª
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaMp M(y®
+·com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?picture@79.17:79.24VARIABLEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaO O("
+typeString"
+isFinalfalse"ñ
+declarationStringÄ<mark class="modifier"> </mark>String <mark class="class-field">picture</mark> = oauthUser.getAttribute("avatar_url").toString()*picture2g
+java.lang.StringTYPEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaO
+ O(2ª
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaO O($ô
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?name@80.17:80.21VARIABLEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaP P("
+typeString"
+isFinalfalse"ç
+declarationStringx<mark class="modifier"> </mark>String <mark class="class-field">name</mark> = oauthUser.getAttribute("login").toString()*name2g
+java.lang.StringTYPEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaP
+ P(2ª
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaP P(!†
+Ëcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?providerUserId@81.17:81.31VARIABLEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaQ Q("
+typeString"
+isFinalfalse"Ä
+declarationStringk<mark class="modifier"> </mark>String <mark class="class-field">providerUserId</mark> = oauthUser.getName()*providerUserId2g
+java.lang.StringTYPEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaQ
+ Q(2ª
+„com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?oauthUser@47.12:47.21CALLM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaQ" Q(+Ë
+·com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user2@135.13:135.18VARIABLEO
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaá á("
+typeUser"
+isFinalfalse"≥
+declarationStringù<mark class="modifier"> </mark>User <mark class="class-field">user2</mark> = userRepo.findByEmail(user.getEmail()).orElse(<mark class="modifier">null</mark>)*user22n
+com.scm.entities.UserTYPEO
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaá á(2û
+Ecom.scm.config.OAuthAuthenticationSuccessHandler?userRepo@31.21:31.29CALLO
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaá á(2∏
+ﬁcom.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?user@53.13:53.17CALLO
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.javaá) á(-ö
+’com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)!request	PARAMETERM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java"; "(B"
+typeHttpServletRequest"
+isFinalfalse"/
+declarationStringHttpServletRequest request*request2~
+'jakarta.servlet.http.HttpServletRequestTYPEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java"( "(:†
+÷com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)!response	PARAMETERM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java"X "(`"
+typeHttpServletResponse"
+isFinalfalse"1
+declarationStringHttpServletResponse response*response2
+(jakarta.servlet.http.HttpServletResponseTYPEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java"D "(W±
+‹com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)!authentication	PARAMETERM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java# #()"
+typeAuthentication"
+isFinalfalse"2
+declarationStringAuthentication authentication*authentication2á
+0org.springframework.security.core.AuthenticationTYPEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java# #(ı
+€com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?k@49.43:49.44VARIABLEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java1+ 1(,"
+type"
+isFinalfalse"
+declarationString k*k2TYPEı
+€com.scm.config.OAuthAuthenticationSuccessHandler.onAuthenticationSuccess(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, org.springframework.security.core.Authentication)?v@49.45:49.46VARIABLEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java1- 1(."
+type"
+isFinalfalse"
+declarationString v*v2TYPEì
+Ccom.scm.config.OAuthAuthenticationSuccessHandler?logger@28.11:28.17VARIABLEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java ("
+isFinalfalse"
+typeLogger"±
+declarationStringõ<mark class="modifier"> </mark>Logger <mark class="class-field">logger</mark> = org.slf4j.LoggerFactory.getLogger(OAuthAuthenticationSuccessHandler.class);"
+isStaticfalse"
+accesspackage_private*logger2g
+org.slf4j.LoggerTYPEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java (
+Ÿ
+Ecom.scm.config.OAuthAuthenticationSuccessHandler?userRepo@31.21:31.29VARIABLEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java ("
+isFinalfalse"
+typeUserRepo"m
+declarationStringX<mark class="modifier">private </mark>UserRepo <mark class="class-field">userRepo</mark>"
+isStaticfalse"
+accessprivate*userRepo2t
+com.scm.repositories.UserRepoTYPEM
+Csrc\main\java\com\scm\config\OAuthAuthenticationSuccessHandler.java (

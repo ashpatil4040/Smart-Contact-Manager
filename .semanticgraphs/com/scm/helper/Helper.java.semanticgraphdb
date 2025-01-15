@@ -1,0 +1,110 @@
+
+(src\main\java\com\scm\helper\Helper.javaŒ
+com.scm.helper.HelperCLASS2
+(src\main\java\com\scm\helper\Helper.java
+ 
+("
+packagecom.scm.helper"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"d
+declarationStringO<mark class="modifier">public </mark><mark class="modifier">class </mark>Helper"
+accesspublic*Helper2°
+^com.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)DECLARATION2
+(src\main\java\com\scm\helper\Helper.java (1‘ 
+^com.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)METHOD2
+(src\main\java\com\scm\helper\Helper.java (1"
+isFinalfalse"∏
+declarationString¢<mark class="modifier">public </mark><mark class="modifier">static </mark>String <mark class="method">getEmailOfLoggedInUser</mark>(Authentication authentication)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeString*getEmailOfLoggedInUser2i
+-java.io.PrintStream.println(java.lang.String)CALL2
+(src\main\java\com\scm\helper\Helper.java ("2i
+-java.io.PrintStream.println(java.lang.String)CALL2
+(src\main\java\com\scm\helper\Helper.java# #("2©
+mcom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)!authenticationCALL2
+(src\main\java\com\scm\helper\Helper.java (2©
+mcom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)!authenticationCALL2
+(src\main\java\com\scm\helper\Helper.javaA (O2Ω
+Äcom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?aOAuth2Authentication@18.16:18.37CALL2
+(src\main\java\com\scm\helper\Helper.java (/2©
+mcom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)!authenticationCALL2
+(src\main\java\com\scm\helper\Helper.java' (52Ø
+scom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?clientid@19.16:19.24CALL2
+(src\main\java\com\scm\helper\Helper.java (2Ø
+scom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?username@23.19:23.27CALL2
+(src\main\java\com\scm\helper\Helper.java (2±
+ucom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?oauth2User@21.16:21.26CALL2
+(src\main\java\com\scm\helper\Helper.java (%2Ø
+scom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?clientid@19.16:19.24CALL2
+(src\main\java\com\scm\helper\Helper.java! !(2Ø
+scom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?username@23.19:23.27CALL2
+(src\main\java\com\scm\helper\Helper.java$ $(2±
+ucom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?oauth2User@21.16:21.26CALL2
+(src\main\java\com\scm\helper\Helper.java$ $(%2±
+ucom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?oauth2User@21.16:21.26CALL2
+(src\main\java\com\scm\helper\Helper.java$F $(P2±
+ucom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?oauth2User@21.16:21.26CALL2
+(src\main\java\com\scm\helper\Helper.java$t $(~2Ø
+scom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?username@23.19:23.27CALL2
+(src\main\java\com\scm\helper\Helper.java+ +(2©
+mcom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)!authenticationCALL2
+(src\main\java\com\scm\helper\Helper.java0 0(!2Æ
+mcom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)!authentication	PARAMETER2
+(src\main\java\com\scm\helper\Helper.javaA (O2ƒ
+Äcom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?aOAuth2Authentication@18.16:18.37DECLARATION2
+(src\main\java\com\scm\helper\Helper.java (%2∂
+scom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?clientid@19.16:19.24DECLARATION2
+(src\main\java\com\scm\helper\Helper.java (2∏
+ucom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?oauth2User@21.16:21.26DECLARATION2
+(src\main\java\com\scm\helper\Helper.java (2∂
+scom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?username@23.19:23.27DECLARATION2
+(src\main\java\com\scm\helper\Helper.java (2S
+java.lang.StringRETURN_TYPE2
+(src\main\java\com\scm\helper\Helper.java (‘
+Äcom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?aOAuth2Authentication@18.16:18.37VARIABLE2
+(src\main\java\com\scm\helper\Helper.java (%"
+typevar"
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark>var <mark class="class-field">aOAuth2Authentication</mark> = (OAuth2AuthenticationToken) authentication*aOAuth2Authentication2è
+Sorg.springframework.security.oauth2.client.authentication.OAuth2AuthenticationTokenTYPE2
+(src\main\java\com\scm\helper\Helper.java (2©
+mcom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)!authenticationCALL2
+(src\main\java\com\scm\helper\Helper.javaA (O˛
+scom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?clientid@19.16:19.24VARIABLE2
+(src\main\java\com\scm\helper\Helper.java ("
+typevar"
+isFinalfalse"û
+declarationStringà<mark class="modifier"> </mark>var <mark class="class-field">clientid</mark> = aOAuth2Authentication.getAuthorizedClientRegistrationId()*clientid2?
+varTYPE2
+(src\main\java\com\scm\helper\Helper.java (2Ω
+Äcom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?aOAuth2Authentication@18.16:18.37CALL2
+(src\main\java\com\scm\helper\Helper.java (/ï
+ucom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?oauth2User@21.16:21.26VARIABLE2
+(src\main\java\com\scm\helper\Helper.java ("
+typevar"
+isFinalfalse"ê
+declarationString{<mark class="modifier"> </mark>var <mark class="class-field">oauth2User</mark> = (OAuth2User) authentication.getPrincipal()*
+oauth2User2t
+8org.springframework.security.oauth2.core.user.OAuth2UserTYPE2
+(src\main\java\com\scm\helper\Helper.java (2©
+mcom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)!authenticationCALL2
+(src\main\java\com\scm\helper\Helper.java' (5ò
+scom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)?username@23.19:23.27VARIABLE2
+(src\main\java\com\scm\helper\Helper.java ("
+typeString"
+isFinalfalse"i
+declarationStringT<mark class="modifier"> </mark>String <mark class="class-field">username</mark> = ""*username2L
+java.lang.StringTYPE2
+(src\main\java\com\scm\helper\Helper.java (ä
+mcom.scm.helper.Helper.getEmailOfLoggedInUser(org.springframework.security.core.Authentication)!authentication	PARAMETER2
+(src\main\java\com\scm\helper\Helper.javaA (O"
+typeAuthentication"
+isFinalfalse"2
+declarationStringAuthentication authentication*authentication2l
+0org.springframework.security.core.AuthenticationTYPE2
+(src\main\java\com\scm\helper\Helper.java2 (@

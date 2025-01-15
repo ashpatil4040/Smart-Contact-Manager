@@ -1,0 +1,302 @@
+
+5src\main\java\com\scm\controllers\PageController.javaÏ
+"com.scm.controllers.PageControllerCLASS?
+5src\main\java\com\scm\controllers\PageController.java ("
+packagecom.scm.controllers"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ù
+declarationStringá<mark class="annotation">@Controller</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>PageController"
+accesspublic*PageController2y
+)com.scm.controllers.PageController.Home()DECLARATION?
+5src\main\java\com\scm\controllers\PageController.java (2ï
+Ecom.scm.controllers.PageController.Home(org.springframework.ui.Model)DECLARATION?
+5src\main\java\com\scm\controllers\PageController.java# #(2ö
+Jcom.scm.controllers.PageController.aboutPage(org.springframework.ui.Model)DECLARATION?
+5src\main\java\com\scm\controllers\PageController.java0 0(2ù
+Mcom.scm.controllers.PageController.servicesPage(org.springframework.ui.Model)DECLARATION?
+5src\main\java\com\scm\controllers\PageController.java7 7(2|
+,com.scm.controllers.PageController.contact()DECLARATION?
+5src\main\java\com\scm\controllers\PageController.java> >(2z
+*com.scm.controllers.PageController.login()DECLARATION?
+5src\main\java\com\scm\controllers\PageController.javaE E(2ô
+Icom.scm.controllers.PageController.register(org.springframework.ui.Model)DECLARATION?
+5src\main\java\com\scm\controllers\PageController.javaK K(2Î
+öcom.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)DECLARATION?
+5src\main\java\com\scm\controllers\PageController.java[ [(!2ä
+:com.scm.controllers.PageController?userService@24.24:24.35DECLARATION?
+5src\main\java\com\scm\controllers\PageController.java (#‘
+)com.scm.controllers.PageController.Home()METHOD?
+5src\main\java\com\scm\controllers\PageController.java ("
+isFinalfalse"ô
+declarationStringÉ<mark class="annotation">@GetMapping("/")</mark> <br><mark class="modifier">public </mark>String <mark class="method">Home</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*Home2`
+java.lang.StringRETURN_TYPE?
+5src\main\java\com\scm\controllers\PageController.java (‹	
+Ecom.scm.controllers.PageController.Home(org.springframework.ui.Model)METHOD?
+5src\main\java\com\scm\controllers\PageController.java# #("
+isFinalfalse"¨
+declarationStringñ<mark class="annotation">@RequestMapping("/home")</mark> <br><mark class="modifier">public </mark>String <mark class="method">Home</mark>(Model model)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*Home2v
+-java.io.PrintStream.println(java.lang.String)CALL?
+5src\main\java\com\scm\controllers\PageController.java$ $(2î
+Kcom.scm.controllers.PageController.Home(org.springframework.ui.Model)!modelCALL?
+5src\main\java\com\scm\controllers\PageController.java' '(2î
+Kcom.scm.controllers.PageController.Home(org.springframework.ui.Model)!modelCALL?
+5src\main\java\com\scm\controllers\PageController.java( ((2î
+Kcom.scm.controllers.PageController.Home(org.springframework.ui.Model)!modelCALL?
+5src\main\java\com\scm\controllers\PageController.java) )(2ô
+Kcom.scm.controllers.PageController.Home(org.springframework.ui.Model)!model	PARAMETER?
+5src\main\java\com\scm\controllers\PageController.java# #("2`
+java.lang.StringRETURN_TYPE?
+5src\main\java\com\scm\controllers\PageController.java# #( 
+Kcom.scm.controllers.PageController.Home(org.springframework.ui.Model)!model	PARAMETER?
+5src\main\java\com\scm\controllers\PageController.java# #(""
+typeModel"
+isFinalfalse" 
+declarationStringModel model*model2e
+org.springframework.ui.ModelTYPE?
+5src\main\java\com\scm\controllers\PageController.java# #(»
+Jcom.scm.controllers.PageController.aboutPage(org.springframework.ui.Model)METHOD?
+5src\main\java\com\scm\controllers\PageController.java0 0("
+isFinalfalse"≤
+declarationStringú<mark class="annotation">@RequestMapping("/about")</mark> <br><mark class="modifier">public </mark>String <mark class="method">aboutPage</mark>(Model model)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*	aboutPage2v
+-java.io.PrintStream.println(java.lang.String)CALL?
+5src\main\java\com\scm\controllers\PageController.java1 1(2ô
+Pcom.scm.controllers.PageController.aboutPage(org.springframework.ui.Model)!modelCALL?
+5src\main\java\com\scm\controllers\PageController.java2 2(2û
+Pcom.scm.controllers.PageController.aboutPage(org.springframework.ui.Model)!model	PARAMETER?
+5src\main\java\com\scm\controllers\PageController.java0" 0('2`
+java.lang.StringRETURN_TYPE?
+5src\main\java\com\scm\controllers\PageController.java0 0(œ
+Pcom.scm.controllers.PageController.aboutPage(org.springframework.ui.Model)!model	PARAMETER?
+5src\main\java\com\scm\controllers\PageController.java0" 0('"
+typeModel"
+isFinalfalse" 
+declarationStringModel model*model2e
+org.springframework.ui.ModelTYPE?
+5src\main\java\com\scm\controllers\PageController.java0 0(!ª
+Mcom.scm.controllers.PageController.servicesPage(org.springframework.ui.Model)METHOD?
+5src\main\java\com\scm\controllers\PageController.java7 7("
+isFinalfalse"∏
+declarationString¢<mark class="annotation">@RequestMapping("/services")</mark> <br><mark class="modifier">public </mark>String <mark class="method">servicesPage</mark>(Model model)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*servicesPage2v
+-java.io.PrintStream.println(java.lang.String)CALL?
+5src\main\java\com\scm\controllers\PageController.java8 8(2°
+Scom.scm.controllers.PageController.servicesPage(org.springframework.ui.Model)!model	PARAMETER?
+5src\main\java\com\scm\controllers\PageController.java7% 7(*2`
+java.lang.StringRETURN_TYPE?
+5src\main\java\com\scm\controllers\PageController.java7 7(“
+Scom.scm.controllers.PageController.servicesPage(org.springframework.ui.Model)!model	PARAMETER?
+5src\main\java\com\scm\controllers\PageController.java7% 7(*"
+typeModel"
+isFinalfalse" 
+declarationStringModel model*model2e
+org.springframework.ui.ModelTYPE?
+5src\main\java\com\scm\controllers\PageController.java7 7($–
+,com.scm.controllers.PageController.contact()METHOD?
+5src\main\java\com\scm\controllers\PageController.java> >("
+isFinalfalse"£
+declarationStringç<mark class="annotation">@GetMapping("/contact")</mark> <br><mark class="modifier">public </mark>String <mark class="method">contact</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*contact2v
+-java.io.PrintStream.println(java.lang.String)CALL?
+5src\main\java\com\scm\controllers\PageController.java? ?(2r
+)java.lang.String.String(java.lang.String)CALL?
+5src\main\java\com\scm\controllers\PageController.java@ @(2`
+java.lang.StringRETURN_TYPE?
+5src\main\java\com\scm\controllers\PageController.java> >(–
+*com.scm.controllers.PageController.login()METHOD?
+5src\main\java\com\scm\controllers\PageController.javaE E("
+isFinalfalse"ü
+declarationStringâ<mark class="annotation">@GetMapping("/login")</mark> <br><mark class="modifier">public </mark>String <mark class="method">login</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*login2r
+)java.lang.String.String(java.lang.String)CALL?
+5src\main\java\com\scm\controllers\PageController.javaF F(2`
+java.lang.StringRETURN_TYPE?
+5src\main\java\com\scm\controllers\PageController.javaE E(ë
+
+Icom.scm.controllers.PageController.register(org.springframework.ui.Model)METHOD?
+5src\main\java\com\scm\controllers\PageController.javaK K("
+isFinalfalse"∞
+declarationStringö<mark class="annotation">@GetMapping("/register")</mark> <br><mark class="modifier">public </mark>String <mark class="method">register</mark>(Model model)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*register2j
+!com.scm.forms.UserFrom.UserFrom()CALL?
+5src\main\java\com\scm\controllers\PageController.javaM  M((2ò
+Ocom.scm.controllers.PageController.register(org.springframework.ui.Model)!modelCALL?
+5src\main\java\com\scm\controllers\PageController.javaT T(2ß
+^com.scm.controllers.PageController.register(org.springframework.ui.Model)?userForm@77.17:77.25CALL?
+5src\main\java\com\scm\controllers\PageController.javaT' T(/2ù
+Ocom.scm.controllers.PageController.register(org.springframework.ui.Model)!model	PARAMETER?
+5src\main\java\com\scm\controllers\PageController.javaK! K(&2Æ
+^com.scm.controllers.PageController.register(org.springframework.ui.Model)?userForm@77.17:77.25DECLARATION?
+5src\main\java\com\scm\controllers\PageController.javaM M(2`
+java.lang.StringRETURN_TYPE?
+5src\main\java\com\scm\controllers\PageController.javaK K(ü
+^com.scm.controllers.PageController.register(org.springframework.ui.Model)?userForm@77.17:77.25VARIABLE?
+5src\main\java\com\scm\controllers\PageController.javaM M("
+typeUserFrom"
+isFinalfalse"w
+declarationStringb<mark class="modifier"> </mark>UserFrom <mark class="class-field">userForm</mark> = new UserFrom()*userForm2_
+com.scm.forms.UserFromTYPE?
+5src\main\java\com\scm\controllers\PageController.javaM M(2j
+!com.scm.forms.UserFrom.UserFrom()CALL?
+5src\main\java\com\scm\controllers\PageController.javaM  M((Œ
+Ocom.scm.controllers.PageController.register(org.springframework.ui.Model)!model	PARAMETER?
+5src\main\java\com\scm\controllers\PageController.javaK! K(&"
+typeModel"
+isFinalfalse" 
+declarationStringModel model*model2e
+org.springframework.ui.ModelTYPE?
+5src\main\java\com\scm\controllers\PageController.javaK K( ˛3
+öcom.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)METHOD?
+5src\main\java\com\scm\controllers\PageController.java[ [(!"
+isFinalfalse"ê
+declarationString˙ <mark class="annotation">@ModelAttribute("userForm")</mark> UserFrom userForm<mark class="modifier"><mark class="modifier">,</mark></mark> BindingResult rBindingResult<mark class="modifier"><mark class="modifier">,</mark></mark> HttpSession session)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*processRegister2v
+-java.io.PrintStream.println(java.lang.String)CALL?
+5src\main\java\com\scm\controllers\PageController.java] ](2Ö
+<com.scm.services.UserService.saveUser(com.scm.entities.User)CALL?
+5src\main\java\com\scm\controllers\PageController.javas% s(-2e
+com.scm.entities.User.User()CALL?
+5src\main\java\com\scm\controllers\PageController.javal l(2Ì
+£com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)!userFormCALL?
+5src\main\java\com\scm\controllers\PageController.java]( ](02Û
+©com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)!rBindingResultCALL?
+5src\main\java\com\scm\controllers\PageController.java_ _(2˜
+≠com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)?user@108.13:108.17CALL?
+5src\main\java\com\scm\controllers\PageController.javam m(2Ì
+£com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)!userFormCALL?
+5src\main\java\com\scm\controllers\PageController.javam m(2˜
+≠com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)?user@108.13:108.17CALL?
+5src\main\java\com\scm\controllers\PageController.javan n(2Ì
+£com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)!userFormCALL?
+5src\main\java\com\scm\controllers\PageController.javan n(2˜
+≠com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)?user@108.13:108.17CALL?
+5src\main\java\com\scm\controllers\PageController.javao o(2Ì
+£com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)!userFormCALL?
+5src\main\java\com\scm\controllers\PageController.javao o(!2˜
+≠com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)?user@108.13:108.17CALL?
+5src\main\java\com\scm\controllers\PageController.javap p(2Ì
+£com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)!userFormCALL?
+5src\main\java\com\scm\controllers\PageController.javap p(2˜
+≠com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)?user@108.13:108.17CALL?
+5src\main\java\com\scm\controllers\PageController.javaq q(2Ì
+£com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)!userFormCALL?
+5src\main\java\com\scm\controllers\PageController.javaq q($2˜
+≠com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)?user@108.13:108.17CALL?
+5src\main\java\com\scm\controllers\PageController.javar r(2É
+:com.scm.controllers.PageController?userService@24.24:24.35CALL?
+5src\main\java\com\scm\controllers\PageController.javas s($2˜
+≠com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)?user@108.13:108.17CALL?
+5src\main\java\com\scm\controllers\PageController.javas. s(22Ï
+¢com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)!sessionCALL?
+5src\main\java\com\scm\controllers\PageController.javaz z(2˙
+∞com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)?message@117.16:117.23CALL?
+5src\main\java\com\scm\controllers\PageController.javaz( z(/2Ú
+£com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)!userForm	PARAMETER?
+5src\main\java\com\scm\controllers\PageController.java[N [(V2¯
+©com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)!rBindingResult	PARAMETER?
+5src\main\java\com\scm\controllers\PageController.java[f [(t2Û
+¢com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)!session	PARAMETERA
+5src\main\java\com\scm\controllers\PageController.java[Ç [(â2˛
+≠com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)?user@108.13:108.17DECLARATION?
+5src\main\java\com\scm\controllers\PageController.javal l(2É
+≤com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)?savedUser@115.13:115.22DECLARATION?
+5src\main\java\com\scm\controllers\PageController.javas s(2Å
+∞com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)?message@117.16:117.23DECLARATION?
+5src\main\java\com\scm\controllers\PageController.javau u(2`
+java.lang.StringRETURN_TYPE?
+5src\main\java\com\scm\controllers\PageController.java[ [(’
+≠com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)?user@108.13:108.17VARIABLE?
+5src\main\java\com\scm\controllers\PageController.javal l("
+typeUser"
+isFinalfalse"k
+declarationStringV<mark class="modifier"> </mark>User <mark class="class-field">user</mark> = new User()*user2^
+com.scm.entities.UserTYPE?
+5src\main\java\com\scm\controllers\PageController.javal l(2e
+com.scm.entities.User.User()CALL?
+5src\main\java\com\scm\controllers\PageController.javal l(ñ
+≤com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)?savedUser@115.13:115.22VARIABLE?
+5src\main\java\com\scm\controllers\PageController.javas s("
+typeUser"
+isFinalfalse"Ä
+declarationStringk<mark class="modifier"> </mark>User <mark class="class-field">savedUser</mark> = userService.saveUser(user)*	savedUser2^
+com.scm.entities.UserTYPE?
+5src\main\java\com\scm\controllers\PageController.javas s(2Ö
+<com.scm.services.UserService.saveUser(com.scm.entities.User)CALL?
+5src\main\java\com\scm\controllers\PageController.javas% s(-2É
+:com.scm.controllers.PageController?userService@24.24:24.35CALL?
+5src\main\java\com\scm\controllers\PageController.javas s($2˜
+≠com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)?user@108.13:108.17CALL?
+5src\main\java\com\scm\controllers\PageController.javas. s(2œ
+∞com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)?message@117.16:117.23VARIABLE?
+5src\main\java\com\scm\controllers\PageController.javau u("
+typeMessage"
+isFinalfalse"¡
+declarationString´<mark class="modifier"> </mark>Message <mark class="class-field">message</mark> = Message.builder().content("User registered successfully").type(MessageType.green).build()*message2_
+com.scm.helper.MessageTYPE?
+5src\main\java\com\scm\controllers\PageController.javau u(ç
+£com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)!userForm	PARAMETER?
+5src\main\java\com\scm\controllers\PageController.java[N [(V"
+typeUserFrom"
+isFinalfalse"â
+declarationStringt<mark class="annotation">@Valid</mark> <mark class="annotation">@ModelAttribute("userForm")</mark> UserFrom userForm*userForm2_
+com.scm.forms.UserFromTYPE?
+5src\main\java\com\scm\controllers\PageController.java[E [(M€
+©com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)!rBindingResult	PARAMETER?
+5src\main\java\com\scm\controllers\PageController.java[f [(t"
+typeBindingResult"
+isFinalfalse"1
+declarationStringBindingResult rBindingResult*rBindingResult2u
+,org.springframework.validation.BindingResultTYPE?
+5src\main\java\com\scm\controllers\PageController.java[X [(eπ
+¢com.scm.controllers.PageController.processRegister(com.scm.forms.UserFrom, org.springframework.validation.BindingResult, jakarta.servlet.http.HttpSession)!session	PARAMETERA
+5src\main\java\com\scm\controllers\PageController.java[Ç [(â"
+typeHttpSession"
+isFinalfalse"(
+declarationStringHttpSession session*session2j
+ jakarta.servlet.http.HttpSessionTYPE@
+5src\main\java\com\scm\controllers\PageController.java[v [(ÅΩ
+:com.scm.controllers.PageController?userService@24.24:24.35VARIABLE?
+5src\main\java\com\scm\controllers\PageController.java (#"
+isFinalfalse"
+typeUserService"s
+declarationString^<mark class="modifier">private </mark>UserService <mark class="class-field">userService</mark>"
+isStaticfalse"
+accessprivate*userService2e
+com.scm.services.UserServiceTYPE?
+5src\main\java\com\scm\controllers\PageController.java (

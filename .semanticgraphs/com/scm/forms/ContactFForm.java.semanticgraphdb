@@ -1,0 +1,116 @@
+
+-src\main\java\com\scm\forms\ContactFForm.javaı
+com.scm.forms.ContactFormCLASS7
+-src\main\java\com\scm\forms\ContactFForm.java ("
+packagecom.scm.forms"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ﬂ
+declarationString…<mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@NoArgsConstructor</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="annotation">@ToString</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>ContactForm"
+accesspublic*ContactForm2r
+*com.scm.forms.ContactForm?name@21.15:21.19DECLARATION7
+-src\main\java\com\scm\forms\ContactFForm.java (2s
++com.scm.forms.ContactForm?email@24.15:24.20DECLARATION7
+-src\main\java\com\scm\forms\ContactFForm.java (2y
+1com.scm.forms.ContactForm?phoneNumber@28.15:28.26DECLARATION7
+-src\main\java\com\scm\forms\ContactFForm.java (2u
+-com.scm.forms.ContactForm?address@31.15:31.22DECLARATION7
+-src\main\java\com\scm\forms\ContactFForm.java (2y
+1com.scm.forms.ContactForm?description@34.15:34.26DECLARATION7
+-src\main\java\com\scm\forms\ContactFForm.java" "(2y
+1com.scm.forms.ContactForm?websiteLink@36.15:36.26DECLARATION7
+-src\main\java\com\scm\forms\ContactFForm.java$ $(2z
+2com.scm.forms.ContactForm?linkedInLink@38.15:38.27DECLARATION7
+-src\main\java\com\scm\forms\ContactFForm.java& &(2w
+/com.scm.forms.ContactForm?favourite@40.16:40.25DECLARATION7
+-src\main\java\com\scm\forms\ContactFForm.java( ((2z
+2com.scm.forms.ContactForm?profileImage@42.22:42.34DECLARATION7
+-src\main\java\com\scm\forms\ContactFForm.java* *("¶
+*com.scm.forms.ContactForm?name@21.15:21.19VARIABLE7
+-src\main\java\com\scm\forms\ContactFForm.java ("
+isFinalfalse"
+typeString"ì
+declarationString~<mark class="modifier">private </mark>String <mark class="class-field">name</mark> = "Name is required")
+private String name;"
+isStaticfalse"
+accessprivate*name2Q
+java.lang.StringTYPE7
+-src\main\java\com\scm\forms\ContactFForm.java (∞
++com.scm.forms.ContactForm?email@24.15:24.20VARIABLE7
+-src\main\java\com\scm\forms\ContactFForm.java ("
+isFinalfalse"
+typeString"õ
+declarationStringÖ<mark class="modifier">private </mark>String <mark class="class-field">email</mark> = "Invalid email address")
+private String email;"
+isStaticfalse"
+accessprivate*email2Q
+java.lang.StringTYPE7
+-src\main\java\com\scm\forms\ContactFForm.java (ø
+1com.scm.forms.ContactForm?phoneNumber@28.15:28.26VARIABLE7
+-src\main\java\com\scm\forms\ContactFForm.java ("
+isFinalfalse"
+typeString"û
+declarationStringà<mark class="modifier">private </mark>String <mark class="class-field">phoneNumber</mark> = "Phone number is required")
+@Pattern(regexp = "^[0-9]{10}$"<mark class="modifier">,</mark> message = "Phone number must be a 10-digit number")
+private String phoneNumber;"
+isStaticfalse"
+accessprivate*phoneNumber2Q
+java.lang.StringTYPE7
+-src\main\java\com\scm\forms\ContactFForm.java (∂
+-com.scm.forms.ContactForm?address@31.15:31.22VARIABLE7
+-src\main\java\com\scm\forms\ContactFForm.java ("
+isFinalfalse"
+typeString"ù
+declarationStringá<mark class="modifier">private </mark>String <mark class="class-field">address</mark> = "address is required")
+private String address;"
+isStaticfalse"
+accessprivate*address2Q
+java.lang.StringTYPE7
+-src\main\java\com\scm\forms\ContactFForm.java ( 
+1com.scm.forms.ContactForm?description@34.15:34.26VARIABLE7
+-src\main\java\com\scm\forms\ContactFForm.java" "("
+isFinalfalse"
+typeString"©
+declarationStringì<mark class="modifier">private </mark>String <mark class="class-field">description</mark> = "description is required")
+private String description;"
+isStaticfalse"
+accessprivate*description2Q
+java.lang.StringTYPE7
+-src\main\java\com\scm\forms\ContactFForm.java" "(é
+1com.scm.forms.ContactForm?websiteLink@36.15:36.26VARIABLE7
+-src\main\java\com\scm\forms\ContactFForm.java$ $("
+isFinalfalse"
+typeString"n
+declarationStringY<mark class="modifier">private </mark>String <mark class="class-field">websiteLink</mark>"
+isStaticfalse"
+accessprivate*websiteLink2Q
+java.lang.StringTYPE7
+-src\main\java\com\scm\forms\ContactFForm.java$ $(ë
+2com.scm.forms.ContactForm?linkedInLink@38.15:38.27VARIABLE7
+-src\main\java\com\scm\forms\ContactFForm.java& &("
+isFinalfalse"
+typeString"o
+declarationStringZ<mark class="modifier">private </mark>String <mark class="class-field">linkedInLink</mark>"
+isStaticfalse"
+accessprivate*linkedInLink2Q
+java.lang.StringTYPE7
+-src\main\java\com\scm\forms\ContactFForm.java& &(»
+/com.scm.forms.ContactForm?favourite@40.16:40.25VARIABLE7
+-src\main\java\com\scm\forms\ContactFForm.java( (("
+isFinalfalse"
+typeboolean"≥
+declarationStringù<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">favourite</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*	favourite2H
+booleanTYPE7
+-src\main\java\com\scm\forms\ContactFForm.java( ((æ
+2com.scm.forms.ContactForm?profileImage@42.22:42.34VARIABLE7
+-src\main\java\com\scm\forms\ContactFForm.java* *(""
+isFinalfalse"
+typeMultipartFile"v
+declarationStringa<mark class="modifier">private </mark>MultipartFile <mark class="class-field">profileImage</mark>"
+isStaticfalse"
+accessprivate*profileImage2p
+/org.springframework.web.multipart.MultipartFileTYPE7
+-src\main\java\com\scm\forms\ContactFForm.java* *(

@@ -1,0 +1,66 @@
+
+3src\main\java\com\scm\repositories\ContactRepo.java»
+ com.scm.repositories.ContactRepoTRAIT=
+3src\main\java\com\scm\repositories\ContactRepo.java ("
+packagecom.scm.repositories"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"„
+declarationStringÕ<mark class="annotation">@Repository</mark> <br><mark class="modifier">public </mark><mark class="modifier">interface </mark>ContactRepo<mark class="modifier"> extends </mark>JpaRepository<Contact, String>"
+accesspublic*ContactRepo2ê
+Bcom.scm.repositories.ContactRepo.findByUser(com.scm.entities.User)DECLARATION=
+3src\main\java\com\scm\repositories\ContactRepo.java (2ç
+?com.scm.repositories.ContactRepo.findByUserid(java.lang.String)DECLARATION=
+3src\main\java\com\scm\repositories\ContactRepo.java (2~
+5org.springframework.data.jpa.repository.JpaRepositoryEXTEND=
+3src\main\java\com\scm\repositories\ContactRepo.java% (22o
+com.scm.entities.ContactEXTEND_TYPE_ARGUMENT=
+3src\main\java\com\scm\repositories\ContactRepo.java3 (:2g
+java.lang.StringEXTEND_TYPE_ARGUMENT=
+3src\main\java\com\scm\repositories\ContactRepo.java< (B„
+Bcom.scm.repositories.ContactRepo.findByUser(com.scm.entities.User)METHOD=
+3src\main\java\com\scm\repositories\ContactRepo.java ("
+isFinalfalse"y
+declarationStringd<mark class="modifier"> </mark>List&lt;Contact&gt; <mark class="method">findByUser</mark>(User user)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeList<Contact>*
+findByUser2ì
+Gcom.scm.repositories.ContactRepo.findByUser(com.scm.entities.User)!user	PARAMETER=
+3src\main\java\com\scm\repositories\ContactRepo.java" (&2\
+java.util.ListRETURN_TYPE=
+3src\main\java\com\scm\repositories\ContactRepo.java (2o
+com.scm.entities.ContactRETURN_TYPE_ARGUMENT=
+3src\main\java\com\scm\repositories\ContactRepo.java	 (∑
+Gcom.scm.repositories.ContactRepo.findByUser(com.scm.entities.User)!user	PARAMETER=
+3src\main\java\com\scm\repositories\ContactRepo.java" (&"
+typeUser"
+isFinalfalse"
+declarationString	User user*user2\
+com.scm.entities.UserTYPE=
+3src\main\java\com\scm\repositories\ContactRepo.java (!À
+?com.scm.repositories.ContactRepo.findByUserid(java.lang.String)METHOD=
+3src\main\java\com\scm\repositories\ContactRepo.java ("
+isFinalfalse"‚
+declarationStringÃ c from Contact c where c.user.id= :userId") <br><mark class="modifier"> </mark>List&lt;Contact&gt; <mark class="method">findByUserid</mark>(<mark class="annotation">@Param("userId")</mark> String userId)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeList<Contact>*findByUserid2í
+Fcom.scm.repositories.ContactRepo.findByUserid(java.lang.String)!userId	PARAMETER=
+3src\main\java\com\scm\repositories\ContactRepo.java7 (=2\
+java.util.ListRETURN_TYPE=
+3src\main\java\com\scm\repositories\ContactRepo.java (2o
+com.scm.entities.ContactRETURN_TYPE_ARGUMENT=
+3src\main\java\com\scm\repositories\ContactRepo.java	 (Í
+Fcom.scm.repositories.ContactRepo.findByUserid(java.lang.String)!userId	PARAMETER=
+3src\main\java\com\scm\repositories\ContactRepo.java7 (="
+typeString"
+isFinalfalse"S
+declarationString><mark class="annotation">@Param("userId")</mark> String userId*userId2W
+java.lang.StringTYPE=
+3src\main\java\com\scm\repositories\ContactRepo.java0 (6

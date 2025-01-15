@@ -1,0 +1,61 @@
+
+/src\main\java\com\scm\helper\SessionHelper.javaï
+com.scm.helper.SessionHelperCLASS9
+/src\main\java\com\scm\helper\SessionHelper.java ("
+packagecom.scm.helper"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"›
+declarationString…<mark class="annotation">@Component</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>SessionHelper"
+accesspublic*SessionHelper2v
+,com.scm.helper.SessionHelper.removeMessage()DECLARATION9
+/src\main\java\com\scm\helper\SessionHelper.java
+ 
+(Ž
+,com.scm.helper.SessionHelper.removeMessage()METHOD9
+/src\main\java\com\scm\helper\SessionHelper.java
+ 
+("
+isFinalfalse"ˆ
+declarationStrings<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">removeMessage</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*removeMessage2p
+-java.io.PrintStream.println(java.lang.String)CALL9
+/src\main\java\com\scm\helper\SessionHelper.java (2c
+ java.lang.Throwable.getMessage()CALL9
+/src\main\java\com\scm\helper\SessionHelper.java= (G2h
+%java.lang.Throwable.printStackTrace()CALL9
+/src\main\java\com\scm\helper\SessionHelper.java (2ƒ
+@com.scm.helper.SessionHelper.removeMessage()?session@14.20:14.27CALL9
+/src\main\java\com\scm\helper\SessionHelper.java (2}
+:com.scm.helper.SessionHelper.removeMessage()?e@17.26:17.27CALL9
+/src\main\java\com\scm\helper\SessionHelper.java; (<2}
+:com.scm.helper.SessionHelper.removeMessage()?e@17.26:17.27CALL9
+/src\main\java\com\scm\helper\SessionHelper.java
+ (2Š
+@com.scm.helper.SessionHelper.removeMessage()?session@14.20:14.27DECLARATION9
+/src\main\java\com\scm\helper\SessionHelper.java (2„
+:com.scm.helper.SessionHelper.removeMessage()?e@17.26:17.27DECLARATION9
+/src\main\java\com\scm\helper\SessionHelper.java (2N
+voidRETURN_TYPE9
+/src\main\java\com\scm\helper\SessionHelper.java
+ 
+(í
+@com.scm.helper.SessionHelper.removeMessage()?session@14.20:14.27VARIABLE9
+/src\main\java\com\scm\helper\SessionHelper.java ("
+typeHttpSession"
+isFinalfalse"Î
+declarationString¸<mark class="modifier"> </mark>HttpSession <mark class="class-field">session</mark> = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest().getSession()*session2c
+ jakarta.servlet.http.HttpSessionTYPE9
+/src\main\java\com\scm\helper\SessionHelper.java (£
+:com.scm.helper.SessionHelper.removeMessage()?e@17.26:17.27VARIABLE9
+/src\main\java\com\scm\helper\SessionHelper.java ("
+type	Exception"
+isFinalfalse" 
+declarationStringException e*e2V
+java.lang.ExceptionTYPE9
+/src\main\java\com\scm\helper\SessionHelper.java (

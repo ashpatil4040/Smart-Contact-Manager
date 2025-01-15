@@ -1,0 +1,79 @@
+
+5src\main\java\com\scm\controllers\UserController.java≥
+"com.scm.controllers.UserControllerCLASS?
+5src\main\java\com\scm\controllers\UserController.java ("
+packagecom.scm.controllers"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"⁄
+declarationStringƒ<mark class="annotation">@Controller</mark> <br><mark class="annotation">@RequestMapping("/user")</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>UserController"
+accesspublic*UserController2Ç
+2com.scm.controllers.UserController.userDashboard()DECLARATION?
+5src\main\java\com\scm\controllers\UserController.java   (2Œ
+~com.scm.controllers.UserController.userProfile(org.springframework.ui.Model, org.springframework.security.core.Authentication)DECLARATION?
+5src\main\java\com\scm\controllers\UserController.java( ((2Ö
+5com.scm.controllers.UserController?logger@25.19:25.25DECLARATION?
+5src\main\java\com\scm\controllers\UserController.java (2ä
+:com.scm.controllers.UserController?userService@28.24:28.35DECLARATION?
+5src\main\java\com\scm\controllers\UserController.java (#
+2com.scm.controllers.UserController.userDashboard()METHOD?
+5src\main\java\com\scm\controllers\UserController.java   ("
+isFinalfalse"´
+declarationStringï<mark class="annotation">@GetMapping("/dashboard")</mark> <br><mark class="modifier">public </mark>String <mark class="method">userDashboard</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*userDashboard2v
+-java.io.PrintStream.println(java.lang.String)CALL?
+5src\main\java\com\scm\controllers\UserController.java" "(2`
+java.lang.StringRETURN_TYPE?
+5src\main\java\com\scm\controllers\UserController.java   (Ÿ
+~com.scm.controllers.UserController.userProfile(org.springframework.ui.Model, org.springframework.security.core.Authentication)METHOD?
+5src\main\java\com\scm\controllers\UserController.java( (("
+isFinalfalse"ç
+declarationString˜<mark class="annotation">@GetMapping("/profile")</mark> <br><mark class="modifier">public </mark>String <mark class="method">userProfile</mark>(Model model<mark class="modifier"><mark class="modifier">,</mark></mark> Authentication authentication)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*userProfile2”
+Ñcom.scm.controllers.UserController.userProfile(org.springframework.ui.Model, org.springframework.security.core.Authentication)!model	PARAMETER?
+5src\main\java\com\scm\controllers\UserController.java($ (()2‹
+çcom.scm.controllers.UserController.userProfile(org.springframework.ui.Model, org.springframework.security.core.Authentication)!authentication	PARAMETER?
+5src\main\java\com\scm\controllers\UserController.java(9 ((G2`
+java.lang.StringRETURN_TYPE?
+5src\main\java\com\scm\controllers\UserController.java( ((Ñ
+Ñcom.scm.controllers.UserController.userProfile(org.springframework.ui.Model, org.springframework.security.core.Authentication)!model	PARAMETER?
+5src\main\java\com\scm\controllers\UserController.java($ (()"
+typeModel"
+isFinalfalse" 
+declarationStringModel model*model2e
+org.springframework.ui.ModelTYPE?
+5src\main\java\com\scm\controllers\UserController.java( ((#≈
+çcom.scm.controllers.UserController.userProfile(org.springframework.ui.Model, org.springframework.security.core.Authentication)!authentication	PARAMETER?
+5src\main\java\com\scm\controllers\UserController.java(9 ((G"
+typeAuthentication"
+isFinalfalse"2
+declarationStringAuthentication authentication*authentication2y
+0org.springframework.security.core.AuthenticationTYPE?
+5src\main\java\com\scm\controllers\UserController.java(* ((8’
+5com.scm.controllers.UserController?logger@25.19:25.25VARIABLE?
+5src\main\java\com\scm\controllers\UserController.java ("
+isFinalfalse"
+typeLogger"•
+declarationStringè<mark class="modifier">private </mark>Logger <mark class="class-field">logger</mark> = org.slf4j.LoggerFactory.getLogger(UserController.class);"
+isStaticfalse"
+accessprivate*logger2Y
+org.slf4j.LoggerTYPE?
+5src\main\java\com\scm\controllers\UserController.java (Ω
+:com.scm.controllers.UserController?userService@28.24:28.35VARIABLE?
+5src\main\java\com\scm\controllers\UserController.java (#"
+isFinalfalse"
+typeUserService"s
+declarationString^<mark class="modifier">private </mark>UserService <mark class="class-field">userService</mark>"
+isStaticfalse"
+accessprivate*userService2e
+com.scm.services.UserServiceTYPE?
+5src\main\java\com\scm\controllers\UserController.java (

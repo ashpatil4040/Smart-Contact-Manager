@@ -1,0 +1,299 @@
+
+;src\main\java\com\scm\services\impl\ContactServiceImpl.javaÁ
+(com.scm.services.impl.ContactServiceImplCLASSE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (" 
+packagecom.scm.services.impl"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ÿ
+declarationString√<mark class="annotation">@Service</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>ContactServiceImpl<mark class="modifier"><br>implements </mark>ContactService"
+accesspublic*ContactServiceImpl2ù
+Gcom.scm.services.impl.ContactServiceImpl.save(com.scm.entities.Contact)DECLARATIONE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (2ü
+Icom.scm.services.impl.ContactServiceImpl.update(com.scm.entities.Contact)DECLARATIONE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (2á
+1com.scm.services.impl.ContactServiceImpl.getAll()DECLARATIONE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java# #(2ò
+Bcom.scm.services.impl.ContactServiceImpl.getById(java.lang.String)DECLARATIONE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java) )(2ó
+Acom.scm.services.impl.ContactServiceImpl.delete(java.lang.String)DECLARATIONE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java/ /(2‡
+âcom.scm.services.impl.ContactServiceImpl.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)DECLARATIONE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6 6(2ú
+Fcom.scm.services.impl.ContactServiceImpl.getByUserId(java.lang.String)DECLARATIONE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java< <($2ñ
+@com.scm.services.impl.ContactServiceImpl?contactRepo@17.24:17.35DECLARATIONE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (#2p
+com.scm.services.ContactServiceEXTENDE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java+ (9Ÿ
+Gcom.scm.services.impl.ContactServiceImpl.save(com.scm.entities.Contact)METHODE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java ("
+isFinalfalse"¢
+declarationStringå<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Contact <mark class="method">save</mark>(Contact contact)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeContact*save2h
+java.util.UUID.toString()CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java- (52j
+java.util.UUID.randomUUID()CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java  (*2û
+Ocom.scm.services.impl.ContactServiceImpl.save(com.scm.entities.Contact)!contactCALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (2¨
+]com.scm.services.impl.ContactServiceImpl.save(com.scm.entities.Contact)?contactId@22.15:22.24CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (2è
+@com.scm.services.impl.ContactServiceImpl?contactRepo@17.24:17.35CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (2û
+Ocom.scm.services.impl.ContactServiceImpl.save(com.scm.entities.Contact)!contactCALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java  ('2ë
+>com.scm.services.ContactService.save(com.scm.entities.Contact)OVERRIDEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (2£
+Ocom.scm.services.impl.ContactServiceImpl.save(com.scm.entities.Contact)!contact	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java  ('2≥
+]com.scm.services.impl.ContactServiceImpl.save(com.scm.entities.Contact)?contactId@22.15:22.24DECLARATIONE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (2n
+com.scm.entities.ContactRETURN_TYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (õ
+]com.scm.services.impl.ContactServiceImpl.save(com.scm.entities.Contact)?contactId@22.15:22.24VARIABLEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java ("
+typeString"
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier"> </mark>String <mark class="class-field">contactId</mark> = UUID.randomUUID().toString()*	contactId2_
+java.lang.StringTYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (2h
+java.util.UUID.toString()CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java- (52j
+java.util.UUID.randomUUID()CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java  (*ﬁ
+Ocom.scm.services.impl.ContactServiceImpl.save(com.scm.entities.Contact)!contact	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java  ('"
+typeContact"
+isFinalfalse"$
+declarationStringContact contact*contact2g
+com.scm.entities.ContactTYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (˝
+Icom.scm.services.impl.ContactServiceImpl.update(com.scm.entities.Contact)METHODE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java ("
+isFinalfalse"§
+declarationStringé<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Contact <mark class="method">update</mark>(Contact contact)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeContact*update2¶
+Wjava.lang.UnsupportedOperationException.UnsupportedOperationException(java.lang.String)CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (/2ì
+@com.scm.services.ContactService.update(com.scm.entities.Contact)OVERRIDEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (2•
+Qcom.scm.services.impl.ContactServiceImpl.update(com.scm.entities.Contact)!contact	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java" ()2n
+com.scm.entities.ContactRETURN_TYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (‡
+Qcom.scm.services.impl.ContactServiceImpl.update(com.scm.entities.Contact)!contact	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java" ()"
+typeContact"
+isFinalfalse"$
+declarationStringContact contact*contact2g
+com.scm.entities.ContactTYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (!ˇ
+1com.scm.services.impl.ContactServiceImpl.getAll()METHODE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java# #("
+isFinalfalse"°
+declarationStringã<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;Contact&gt; <mark class="method">getAll</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Contact>*getAll2è
+@com.scm.services.impl.ContactServiceImpl?contactRepo@17.24:17.35CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java% %(2{
+(com.scm.services.ContactService.getAll()OVERRIDEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java# #(2d
+java.util.ListRETURN_TYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java# #(2w
+com.scm.entities.ContactRETURN_TYPE_ARGUMENTE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java# #(ú
+Bcom.scm.services.impl.ContactServiceImpl.getById(java.lang.String)METHODE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java) )("
+isFinalfalse"ü
+declarationStringâ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Contact <mark class="method">getById</mark>(String id)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeContact*getById2£
+Tcom.scm.helper.ResourceNotFoundException.ResourceNotFoundException(java.lang.String)CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java+> +(W2è
+@com.scm.services.impl.ContactServiceImpl?contactRepo@17.24:17.35CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java+ +(2î
+Ecom.scm.services.impl.ContactServiceImpl.getById(java.lang.String)!idCALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java+$ +(&2î
+Ecom.scm.services.impl.ContactServiceImpl.getById(java.lang.String)!idCALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java+x +(z2å
+9com.scm.services.ContactService.getById(java.lang.String)OVERRIDEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java) )(2ô
+Ecom.scm.services.impl.ContactServiceImpl.getById(java.lang.String)!id	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java)" )($2n
+com.scm.entities.ContactRETURN_TYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java) )(¿
+Ecom.scm.services.impl.ContactServiceImpl.getById(java.lang.String)!id	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java)" )($"
+typeString"
+isFinalfalse"
+declarationString	String id*id2_
+java.lang.StringTYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java) )(!Å
+Acom.scm.services.impl.ContactServiceImpl.delete(java.lang.String)METHODE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java/ /("
+isFinalfalse"π
+declarationString£<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">delete</mark>(String id)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*delete2£
+Tcom.scm.helper.ResourceNotFoundException.ResourceNotFoundException(java.lang.String)CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java1E 1(^2è
+@com.scm.services.impl.ContactServiceImpl?contactRepo@17.24:17.35CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java1 1(!2ì
+Dcom.scm.services.impl.ContactServiceImpl.delete(java.lang.String)!idCALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java1+ 1(-2î
+Dcom.scm.services.impl.ContactServiceImpl.delete(java.lang.String)!idCALLF
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java1 1(Å2è
+@com.scm.services.impl.ContactServiceImpl?contactRepo@17.24:17.35CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java2 2(2§
+Ucom.scm.services.impl.ContactServiceImpl.delete(java.lang.String)?contact@49.13:49.20CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java2 2("2ã
+8com.scm.services.ContactService.delete(java.lang.String)OVERRIDEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java/ /(2ò
+Dcom.scm.services.impl.ContactServiceImpl.delete(java.lang.String)!id	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java/ /( 2´
+Ucom.scm.services.impl.ContactServiceImpl.delete(java.lang.String)?contact@49.13:49.20DECLARATIONE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java1 1(2Z
+voidRETURN_TYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java/ /(›
+Ucom.scm.services.impl.ContactServiceImpl.delete(java.lang.String)?contact@49.13:49.20VARIABLEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java1 1("
+typevar"
+isFinalfalse"—
+declarationStringª<mark class="modifier"> </mark>var <mark class="class-field">contact</mark> = contactRepo.findById(id).orElseThrow(() -> new ResourceNotFoundException("Contact not found with id: " + id))*contact2R
+varTYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java1	 1(2£
+Tcom.scm.helper.ResourceNotFoundException.ResourceNotFoundException(java.lang.String)CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java1E 1(^2è
+@com.scm.services.impl.ContactServiceImpl?contactRepo@17.24:17.35CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java1 1(!2ì
+Dcom.scm.services.impl.ContactServiceImpl.delete(java.lang.String)!idCALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java1+ 1(-2î
+Dcom.scm.services.impl.ContactServiceImpl.delete(java.lang.String)!idCALLF
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java1 1(Åø
+Dcom.scm.services.impl.ContactServiceImpl.delete(java.lang.String)!id	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java/ /( "
+typeString"
+isFinalfalse"
+declarationString	String id*id2_
+java.lang.StringTYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java/ /(ö
+âcom.scm.services.impl.ContactServiceImpl.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)METHODE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6 6("
+isFinalfalse"‚
+declarationStringÃ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;Contact&gt; <mark class="method">search</mark>(String name<mark class="modifier"><mark class="modifier">,</mark></mark> String email<mark class="modifier"><mark class="modifier">,</mark></mark> String phoneNumber<mark class="modifier"><mark class="modifier">,</mark></mark> String address<mark class="modifier"><mark class="modifier">,</mark></mark> String description)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Contact>*search2¶
+Wjava.lang.UnsupportedOperationException.UnsupportedOperationException(java.lang.String)CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java8 8(/2‘
+Äcom.scm.services.ContactService.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)OVERRIDEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6 6(2„
+écom.scm.services.impl.ContactServiceImpl.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!name	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6' 6(+2‰
+ècom.scm.services.impl.ContactServiceImpl.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!email	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java64 6(92Í
+ïcom.scm.services.impl.ContactServiceImpl.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!phoneNumber	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6B 6(M2Ê
+ëcom.scm.services.impl.ContactServiceImpl.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!address	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6V 6(]2Í
+ïcom.scm.services.impl.ContactServiceImpl.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!description	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6f 6(q2d
+java.util.ListRETURN_TYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6 6(2w
+com.scm.entities.ContactRETURN_TYPE_ARGUMENTE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6 6(é
+écom.scm.services.impl.ContactServiceImpl.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!name	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6' 6(+"
+typeString"
+isFinalfalse" 
+declarationStringString name*name2_
+java.lang.StringTYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6  6(&ë
+ècom.scm.services.impl.ContactServiceImpl.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!email	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java64 6(9"
+typeString"
+isFinalfalse"!
+declarationStringString email*email2_
+java.lang.StringTYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6- 6(3£
+ïcom.scm.services.impl.ContactServiceImpl.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!phoneNumber	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6B 6(M"
+typeString"
+isFinalfalse"'
+declarationStringString phoneNumber*phoneNumber2_
+java.lang.StringTYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6; 6(Aó
+ëcom.scm.services.impl.ContactServiceImpl.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!address	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6V 6(]"
+typeString"
+isFinalfalse"#
+declarationStringString address*address2_
+java.lang.StringTYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6O 6(U£
+ïcom.scm.services.impl.ContactServiceImpl.search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)!description	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6f 6(q"
+typeString"
+isFinalfalse"'
+declarationStringString description*description2_
+java.lang.StringTYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java6_ 6(eï
+Fcom.scm.services.impl.ContactServiceImpl.getByUserId(java.lang.String)METHODE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java< <($"
+isFinalfalse"≥
+declarationStringù<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;Contact&gt; <mark class="method">getByUserId</mark>(String userId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Contact>*getByUserId2é
+?com.scm.repositories.ContactRepo.findByUserid(java.lang.String)CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java> >('2è
+@com.scm.services.impl.ContactServiceImpl?contactRepo@17.24:17.35CALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java> >(2ú
+Mcom.scm.services.impl.ContactServiceImpl.getByUserId(java.lang.String)!userIdCALLE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java>( >(.2ê
+=com.scm.services.ContactService.getByUserId(java.lang.String)OVERRIDEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java< <($2°
+Mcom.scm.services.impl.ContactServiceImpl.getByUserId(java.lang.String)!userId	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java<, <(22d
+java.util.ListRETURN_TYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java< <(2w
+com.scm.entities.ContactRETURN_TYPE_ARGUMENTE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java< <(–
+Mcom.scm.services.impl.ContactServiceImpl.getByUserId(java.lang.String)!userId	PARAMETERE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java<, <(2"
+typeString"
+isFinalfalse""
+declarationStringString userId*userId2_
+java.lang.StringTYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java<% <(+”
+@com.scm.services.impl.ContactServiceImpl?contactRepo@17.24:17.35VARIABLEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (#"
+isFinalfalse"
+typeContactRepo"s
+declarationString^<mark class="modifier">private </mark>ContactRepo <mark class="class-field">contactRepo</mark>"
+isStaticfalse"
+accessprivate*contactRepo2o
+ com.scm.repositories.ContactRepoTYPEE
+;src\main\java\com\scm\services\impl\ContactServiceImpl.java (

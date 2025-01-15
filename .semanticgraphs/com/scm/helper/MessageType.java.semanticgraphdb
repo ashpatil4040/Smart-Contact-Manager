@@ -1,0 +1,27 @@
+
+-src\main\java\com\scm\helper\MessageType.javaÓ
+com.scm.helper.MessageTypeENUM7
+-src\main\java\com\scm\helper\MessageType.java ("C
+declarationString.<mark class="modifier">enum </mark>MessageType*MessageType2g
+com.scm.helper.MessageType?blueDECLARATION7
+-src\main\java\com\scm\helper\MessageType.java (2f
+com.scm.helper.MessageType?redDECLARATION7
+-src\main\java\com\scm\helper\MessageType.java
+ (2h
+ com.scm.helper.MessageType?greenDECLARATION7
+-src\main\java\com\scm\helper\MessageType.java (2i
+!com.scm.helper.MessageType?yellowDECLARATION7
+-src\main\java\com\scm\helper\MessageType.java (u
+com.scm.helper.MessageType?blueVALUE7
+-src\main\java\com\scm\helper\MessageType.java ("
+enumtrue*blues
+com.scm.helper.MessageType?redVALUE7
+-src\main\java\com\scm\helper\MessageType.java
+ ("
+enumtrue*redw
+ com.scm.helper.MessageType?greenVALUE7
+-src\main\java\com\scm\helper\MessageType.java ("
+enumtrue*greeny
+!com.scm.helper.MessageType?yellowVALUE7
+-src\main\java\com\scm\helper\MessageType.java ("
+enumtrue*yellow

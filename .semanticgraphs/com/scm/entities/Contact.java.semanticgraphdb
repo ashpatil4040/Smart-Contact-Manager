@@ -1,0 +1,162 @@
+
++src\main\java\com\scm\entities\Contact.java®
+com.scm.entities.ContactCLASS5
++src\main\java\com\scm\entities\Contact.java ("
+packagecom.scm.entities"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ÿ
+declarationString√<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@NoArgsConstructor</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Contact"
+accesspublic*Contact2m
+'com.scm.entities.Contact?id@24.19:24.21DECLARATION5
++src\main\java\com\scm\entities\Contact.java (2o
+)com.scm.entities.Contact?name@25.19:25.23DECLARATION5
++src\main\java\com\scm\entities\Contact.java (2p
+*com.scm.entities.Contact?email@26.19:26.24DECLARATION5
++src\main\java\com\scm\entities\Contact.java (2v
+0com.scm.entities.Contact?phoneNumber@27.19:27.30DECLARATION5
++src\main\java\com\scm\entities\Contact.java (2r
+,com.scm.entities.Contact?address@28.19:28.26DECLARATION5
++src\main\java\com\scm\entities\Contact.java (2r
+,com.scm.entities.Contact?picture@29.19:29.26DECLARATION5
++src\main\java\com\scm\entities\Contact.java (2v
+0com.scm.entities.Contact?description@31.19:31.30DECLARATION5
++src\main\java\com\scm\entities\Contact.java (2t
+.com.scm.entities.Contact?favourite@32.20:32.29DECLARATION5
++src\main\java\com\scm\entities\Contact.java   (2v
+0com.scm.entities.Contact?websiteLink@33.19:33.30DECLARATION5
++src\main\java\com\scm\entities\Contact.java! !(2w
+1com.scm.entities.Contact?linkedInLink@34.19:34.31DECLARATION5
++src\main\java\com\scm\entities\Contact.java" "(2Ç
+<com.scm.entities.Contact?cloudinaryImagePublicId@36.19:36.42DECLARATION5
++src\main\java\com\scm\entities\Contact.java$ $(*2o
+)com.scm.entities.Contact?user@39.17:39.21DECLARATION5
++src\main\java\com\scm\entities\Contact.java' '(2v
+0com.scm.entities.Contact?socialLinks@42.29:42.40DECLARATION5
++src\main\java\com\scm\entities\Contact.java* *((Ó
+'com.scm.entities.Contact?id@24.19:24.21VARIABLE5
++src\main\java\com\scm\entities\Contact.java ("
+isFinalfalse"
+typeString"e
+declarationStringP<mark class="modifier">private </mark>String <mark class="class-field">id</mark>"
+isStaticfalse"
+accessprivate*id2O
+java.lang.StringTYPE5
++src\main\java\com\scm\entities\Contact.java (Ù
+)com.scm.entities.Contact?name@25.19:25.23VARIABLE5
++src\main\java\com\scm\entities\Contact.java ("
+isFinalfalse"
+typeString"g
+declarationStringR<mark class="modifier">private </mark>String <mark class="class-field">name</mark>"
+isStaticfalse"
+accessprivate*name2O
+java.lang.StringTYPE5
++src\main\java\com\scm\entities\Contact.java (˜
+*com.scm.entities.Contact?email@26.19:26.24VARIABLE5
++src\main\java\com\scm\entities\Contact.java ("
+isFinalfalse"
+typeString"h
+declarationStringS<mark class="modifier">private </mark>String <mark class="class-field">email</mark>"
+isStaticfalse"
+accessprivate*email2O
+java.lang.StringTYPE5
++src\main\java\com\scm\entities\Contact.java (â
+0com.scm.entities.Contact?phoneNumber@27.19:27.30VARIABLE5
++src\main\java\com\scm\entities\Contact.java ("
+isFinalfalse"
+typeString"n
+declarationStringY<mark class="modifier">private </mark>String <mark class="class-field">phoneNumber</mark>"
+isStaticfalse"
+accessprivate*phoneNumber2O
+java.lang.StringTYPE5
++src\main\java\com\scm\entities\Contact.java (˝
+,com.scm.entities.Contact?address@28.19:28.26VARIABLE5
++src\main\java\com\scm\entities\Contact.java ("
+isFinalfalse"
+typeString"j
+declarationStringU<mark class="modifier">private </mark>String <mark class="class-field">address</mark>"
+isStaticfalse"
+accessprivate*address2O
+java.lang.StringTYPE5
++src\main\java\com\scm\entities\Contact.java (˝
+,com.scm.entities.Contact?picture@29.19:29.26VARIABLE5
++src\main\java\com\scm\entities\Contact.java ("
+isFinalfalse"
+typeString"j
+declarationStringU<mark class="modifier">private </mark>String <mark class="class-field">picture</mark>"
+isStaticfalse"
+accessprivate*picture2O
+java.lang.StringTYPE5
++src\main\java\com\scm\entities\Contact.java (∞
+0com.scm.entities.Contact?description@31.19:31.30VARIABLE5
++src\main\java\com\scm\entities\Contact.java ("
+isFinalfalse"
+typeString"î
+declarationString<mark class="modifier">private </mark>String <mark class="class-field">description</mark> = 64000)
+private String description;"
+isStaticfalse"
+accessprivate*description2O
+java.lang.StringTYPE5
++src\main\java\com\scm\entities\Contact.java (√
+.com.scm.entities.Contact?favourite@32.20:32.29VARIABLE5
++src\main\java\com\scm\entities\Contact.java   ("
+isFinalfalse"
+typeboolean"≥
+declarationStringù<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">favourite</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*	favourite2F
+booleanTYPE5
++src\main\java\com\scm\entities\Contact.java   (â
+0com.scm.entities.Contact?websiteLink@33.19:33.30VARIABLE5
++src\main\java\com\scm\entities\Contact.java! !("
+isFinalfalse"
+typeString"n
+declarationStringY<mark class="modifier">private </mark>String <mark class="class-field">websiteLink</mark>"
+isStaticfalse"
+accessprivate*websiteLink2O
+java.lang.StringTYPE5
++src\main\java\com\scm\entities\Contact.java! !(å
+1com.scm.entities.Contact?linkedInLink@34.19:34.31VARIABLE5
++src\main\java\com\scm\entities\Contact.java" "("
+isFinalfalse"
+typeString"o
+declarationStringZ<mark class="modifier">private </mark>String <mark class="class-field">linkedInLink</mark>"
+isStaticfalse"
+accessprivate*linkedInLink2O
+java.lang.StringTYPE5
++src\main\java\com\scm\entities\Contact.java" "(≠
+<com.scm.entities.Contact?cloudinaryImagePublicId@36.19:36.42VARIABLE5
++src\main\java\com\scm\entities\Contact.java$ $(*"
+isFinalfalse"
+typeString"z
+declarationStringe<mark class="modifier">private </mark>String <mark class="class-field">cloudinaryImagePublicId</mark>"
+isStaticfalse"
+accessprivate*cloudinaryImagePublicId2O
+java.lang.StringTYPE5
++src\main\java\com\scm\entities\Contact.java$ $(´
+)com.scm.entities.Contact?user@39.17:39.21VARIABLE5
++src\main\java\com\scm\entities\Contact.java' '("
+isFinalfalse"
+typeUser"ö
+declarationStringÑ<mark class="modifier">private </mark>User <mark class="class-field">user</mark> =new ArrayList<>();
+@ManyToOne
+private User user;"
+isStaticfalse"
+accessprivate*user2T
+com.scm.entities.UserTYPE5
++src\main\java\com\scm\entities\Contact.java' '(í
+0com.scm.entities.Contact?socialLinks@42.29:42.40VARIABLE5
++src\main\java\com\scm\entities\Contact.java* *(("
+isFinalfalse"
+typeList<SocialLink>"©
+declarationStringì<mark class="modifier">private </mark>List<SocialLink> <mark class="class-field">socialLinks</mark> = "contact"<mark class="modifier">,</mark> cascade = CascadeType.ALL, fetch = FetchType.EAGER, orphanRemoval = true)
+private List<SocialLink> socialLinks = new ArrayList<>();"
+isStaticfalse"
+accessprivate*socialLinks2M
+java.util.ListTYPE5
++src\main\java\com\scm\entities\Contact.java* *(2c
+com.scm.entities.SocialLinkTYPE_ARGUMENT5
++src\main\java\com\scm\entities\Contact.java* *(2^
+java.util.ArrayList.ArrayList()CALL5
++src\main\java\com\scm\entities\Contact.java*- *(8
