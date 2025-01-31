@@ -2,6 +2,7 @@ package com.scm.services.impl;
 
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.UUID;
 
 import org.springframework.stereotype.Service;
@@ -30,12 +31,15 @@ public class ImageServiceImpl implements ImageService {
       
 
         try {
-            byte[] data = new byte[contactImage.getInputStream().available()];
-            
-            contactImage.getInputStream().read(data);
+            InputStream inputStream = contactImage.getInputStream(); // Get stream once
+            byte[] data = new byte[inputStream.available()];
+            inputStream.read(data);
+       
+
             cloudinary.uploader().upload(data, ObjectUtils.asMap(
                 "public_id", filename
-            ));
+                , "overwrite", true
+                , "resource_type","auto" ));
           
             return this.getUrlFromPublicId(filename);
 

@@ -1,15 +1,22 @@
 package com.scm.services.impl;
 
+import java.awt.print.Pageable;
 import java.util.List;
 import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import com.scm.entities.Contact;
+import com.scm.entities.User;
 import com.scm.helper.ResourceNotFoundException;
 import com.scm.repositories.ContactRepo;
 import com.scm.services.ContactService;
+
+import lombok.experimental.var;
 
 @Service
 public class ContactServiceImpl implements ContactService {
@@ -27,9 +34,22 @@ public class ContactServiceImpl implements ContactService {
 
     @Override
     public Contact update(Contact contact) {
-        
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'search'");
+      
+       var contactOld = contactRepo.findById(contact.getId()).orElseThrow(() -> new ResourceNotFoundException("Contact not found with id: " + contact.getId()));
+      
+           contactOld.setName(contact.getName());
+           contactOld.setEmail(contact.getEmail());
+           contactOld.setPhoneNumber(contact.getPhoneNumber());
+           contactOld.setAddress(contact.getAddress());
+           contactOld.setDescription(contact.getDescription());
+           contactOld.setPicture(contact.getPicture());
+           contactOld.setWebsiteLink(contact.getWebsiteLink());
+           contactOld.setLinkedInLink(contact.getLinkedInLink());
+           contactOld.setFavourite(contact.isFavourite());
+           contactOld.setSocialLinks(contact.getSocialLinks());
+           contactOld.setCloudinaryImagePublicId(contact.getCloudinaryImagePublicId());
+           return contactRepo.save(contactOld);
+           
     }
 
     @Override
@@ -51,16 +71,64 @@ public class ContactServiceImpl implements ContactService {
         contactRepo.delete(contact);
     }
 
-    @Override
-    public List<Contact> search(String name, String email, String phoneNumber, String address, String description) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'search'");
-    }
+   
 
     @Override
     public List<Contact> getByUserId(String userId) {
         
         return contactRepo.findByUserid(userId);
     }
+
+    @Override
+    public Page<Contact> getByUser(User user,int page, int size, String sortBy, String direction) {
+        
+        
+        Sort sort = direction.equals("desc") ? Sort.by(sortBy).descending() : Sort.by(sortBy).ascending();
+
+        var pageable = PageRequest.of(page, size,sort);
+
+            
+
+        return contactRepo.findByUser(user, pageable);
+    }
+
+    @Override
+    public Page<Contact> searchByName(String nameKeyword, int page, int size, String sortBy, String order,User user) {
+       
+        int validSize = Math.max(1, size);
+        System.out.println("Searching for name: " + nameKeyword);
+        Sort sort = order.equals("desc") ? Sort.by(sortBy).descending() : Sort.by(sortBy).ascending();
+        var pageable = PageRequest.of(page, validSize,sort);
+
+        return contactRepo.findByUserAndNameContaining(user,nameKeyword, pageable);
+
+    }
+
+    @Override
+    public Page<Contact> searchByEmail(String emailKeyword, int page, int size, String sortBy, String order,User user) {
+
+        int validSize = Math.max(1, size);
+
+        Sort sort = order.equals("desc") ? Sort.by(sortBy).descending() : Sort.by(sortBy).ascending();
+        var pageable = PageRequest.of(page, validSize ,sort);
+
+        return contactRepo.findByUserAndEmailContaining(user,emailKeyword, pageable);
+
+    }        
+
+    @Override
+    public Page<Contact> searchByPhoneNumber(String phoneNumberKeyword,int page, int size, String sortBy,
+            String order,User user) {
+        
+                int validSize = Math.max(1, size);
+
+                Sort sort = order.equals("desc") ? Sort.by(sortBy).descending() : Sort.by(sortBy).ascending();
+                var pageable = PageRequest.of(page, validSize,sort);
+        
+                return contactRepo.findByUserAndPhoneNumberContaining(user,phoneNumberKeyword ,pageable);
+        
+    }
+
+    
 
 }
