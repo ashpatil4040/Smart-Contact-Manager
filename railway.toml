@@ -1,0 +1,13 @@
+[build]
+builder = "nixpacks"
+buildCommand = "./mvnw package -DskipTests"
+
+[deploy]
+startCommand = "java -jar app.jar"
+healthcheckPath = "/login"
+restartPolicyType = "ON_FAILURE"
+maxRestartRetries = 3
+
+[deploy.resources]
+cpu = 2
+memory = 512
