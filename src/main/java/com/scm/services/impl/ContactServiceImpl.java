@@ -1,6 +1,5 @@
 package com.scm.services.impl;
 
-import java.awt.print.Pageable;
 import java.util.List;
 import java.util.UUID;
 
@@ -16,7 +15,6 @@ import com.scm.helper.ResourceNotFoundException;
 import com.scm.repositories.ContactRepo;
 import com.scm.services.ContactService;
 
-import lombok.experimental.var;
 
 @Service
 public class ContactServiceImpl implements ContactService {
@@ -34,8 +32,8 @@ public class ContactServiceImpl implements ContactService {
 
     @Override
     public Contact update(Contact contact) {
-      
-       var contactOld = contactRepo.findById(contact.getId()).orElseThrow(() -> new ResourceNotFoundException("Contact not found with id: " + contact.getId()));
+        
+           Contact contactOld = contactRepo.findById(contact.getId()).orElseThrow(() -> new ResourceNotFoundException("Contact not found with id: " + contact.getId()));
       
            contactOld.setName(contact.getName());
            contactOld.setEmail(contact.getEmail());
@@ -51,7 +49,6 @@ public class ContactServiceImpl implements ContactService {
            return contactRepo.save(contactOld);
            
     }
-
     @Override
     public List<Contact> getAll() {
         
@@ -67,7 +64,8 @@ public class ContactServiceImpl implements ContactService {
     @Override
     public void delete(String id) {
        
-         var contact= contactRepo.findById(id).orElseThrow(() -> new ResourceNotFoundException("Contact not found with id: " + id));
+         
+        Contact contact= contactRepo.findById(id).orElseThrow(() -> new ResourceNotFoundException("Contact not found with id: " + id));
         contactRepo.delete(contact);
     }
 
@@ -85,7 +83,7 @@ public class ContactServiceImpl implements ContactService {
         
         Sort sort = direction.equals("desc") ? Sort.by(sortBy).descending() : Sort.by(sortBy).ascending();
 
-        var pageable = PageRequest.of(page, size,sort);
+        PageRequest pageable = PageRequest.of(page, size,sort);
 
             
 
@@ -98,7 +96,8 @@ public class ContactServiceImpl implements ContactService {
         int validSize = Math.max(1, size);
         System.out.println("Searching for name: " + nameKeyword);
         Sort sort = order.equals("desc") ? Sort.by(sortBy).descending() : Sort.by(sortBy).ascending();
-        var pageable = PageRequest.of(page, validSize,sort);
+    
+        PageRequest pageable = PageRequest.of(page, validSize,sort);
 
         return contactRepo.findByUserAndNameContaining(user,nameKeyword, pageable);
 
@@ -110,7 +109,8 @@ public class ContactServiceImpl implements ContactService {
         int validSize = Math.max(1, size);
 
         Sort sort = order.equals("desc") ? Sort.by(sortBy).descending() : Sort.by(sortBy).ascending();
-        var pageable = PageRequest.of(page, validSize ,sort);
+       
+        PageRequest pageable = PageRequest.of(page, validSize ,sort);
 
         return contactRepo.findByUserAndEmailContaining(user,emailKeyword, pageable);
 
@@ -123,7 +123,7 @@ public class ContactServiceImpl implements ContactService {
                 int validSize = Math.max(1, size);
 
                 Sort sort = order.equals("desc") ? Sort.by(sortBy).descending() : Sort.by(sortBy).ascending();
-                var pageable = PageRequest.of(page, validSize,sort);
+                PageRequest pageable = PageRequest.of(page, validSize,sort);
         
                 return contactRepo.findByUserAndPhoneNumberContaining(user,phoneNumberKeyword ,pageable);
         
