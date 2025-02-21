@@ -32,7 +32,6 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 public class User implements UserDetails{
     
     @Id
